@@ -3,6 +3,16 @@
 
 @import "{{ site.theme }}";
 
+.post {
+  font-size: 0.8em;
+  font-weight: 200em;
+}
+
+.post a {
+  text-decoration: none;
+  color: #727272;
+}
+
 .thumb {
   position: absolute;
 }
