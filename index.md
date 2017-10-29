@@ -4,7 +4,7 @@
       <div class="thumb">
         <img src="{{ post.img }}">
       </div>
-      <header class="post">
+      <header class="content">
         <h4><a href="{{ post.link }}">{{ post.title }}</a></h4>  
         <p><span class="source">{{ post.source }}</span> {{ post.text }}</p>
       </header>
