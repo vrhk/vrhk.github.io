@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+footer {
+  display: none;
+}
+
+header {
+  .view {
+    display: none;
+  }
+}
