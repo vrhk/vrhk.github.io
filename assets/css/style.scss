@@ -3,8 +3,16 @@
 
 @import "{{ site.theme }}";
 
-.post img { 
-  width: 2em;
+.thumb {
+  position: absolute;
+}
+
+.thumb img { 
+  width: 7em;
+}
+
+.post {
+  margin-left: 8em; 
 }
 
 footer {
