@@ -1,6 +1,6 @@
-<article class="posts">
+<div class="posts">
   {% for post in site.posts %}
-    <div class="post">
+    <article class="post">
       <a href="{{ post.link }}">
         <div class="thumb">
           <img src="{{ post.img }}">
@@ -12,6 +12,6 @@
         <footer>
         </footer>
       </a>
-    </div>
+    </article>
   {% endfor %}
-</article>
+</div>
