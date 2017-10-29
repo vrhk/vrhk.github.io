@@ -6,7 +6,7 @@
           <img src="{{ post.img }}">
         </div>
         <header class="content">
-          <span class="title">{{ post.title }}</span>
+          <p class="title">{{ post.title }}</p>
           <p><span class="source">{{ post.source }}</span> {{ post.text }}</p>
         </header>
         <footer>
