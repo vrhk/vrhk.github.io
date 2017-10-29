@@ -13,12 +13,18 @@
   color: #727272;
 }
 
+.post p {
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
 .thumb {
   position: absolute;
 }
 
 .thumb img { 
   width: 7em;
+  margin-top: 0.3em;
 }
 
 .title {
