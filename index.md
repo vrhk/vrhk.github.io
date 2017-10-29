@@ -1,8 +1,8 @@
-<div>
+<div class="posts">
   {% for post in site.posts %}
-    <div>
+    <div class="post">
       <h4><a href="{{ post.link }}">{{ post.title }}</a></h4>  
-      <img src={{ post.img }} style="height: 2em;"></img>
+      ![My helpful screenshot]({{ post.img }})
       <p>{{ post.text }}</p>
     </div>
   {% endfor %}
