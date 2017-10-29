@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+.post img { 
+  width: 200px;
+}
+
 footer {
   display: none;
 }
