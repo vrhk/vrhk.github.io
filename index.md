@@ -1,8 +1,8 @@
 <div>
   {% for post in site.posts %}
     <div>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      {{ post.excerpt }}
+      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      ![alt text]({{ post.img }}) {{ post.excerpt }}
     </div>
   {% endfor %}
 </div>
