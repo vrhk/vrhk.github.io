@@ -44,14 +44,10 @@
                   <header>
                     <h4>{{ post.title }}</h4>
                   </header>
-                  <div class="thumb">
-                    <p>{{ post.domain }}</p>
-                    <img src="{{ post.image }}">
-                  </div>
                   <div class="content">
-                    <p>{{ post.text }}</p>
-                    <footer></footer>
+                    <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.text }}</p>
                   </div>
+                  <footer></footer>
                 </a>
               </article>
             </div>
