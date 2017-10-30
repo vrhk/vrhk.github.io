@@ -40,14 +40,14 @@
             <div>
               <article class="post">
                 <a href="{{ post.link }}">
+                  <header>
+                    <h4>{{ post.title }}</h4>
+                  </header>
                   <div class="thumb">
                     <p>{{ post.domain }}</p>
                     <img src="{{ post.image }}">
                   </div>
                   <div class="content">
-                    <header>
-                      <h4>{{ post.title }}</h4>
-                    </header>
                     <p>{{ post.text }}</p>
                     <footer></footer>
                   </div>
