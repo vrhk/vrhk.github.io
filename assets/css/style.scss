@@ -36,17 +36,13 @@
 }
 
 .thumb img { 
-  width: 7em;
+  max-height: 6em;
+  max-width: 9em;
   margin-top: 0.3em;
 }
 
 .content {
-  margin-left: 8em; 
-}
-
-.title {
-  font-weight: 400; 
-  color: black;
+  margin-left: 10em; 
 }
 
 
