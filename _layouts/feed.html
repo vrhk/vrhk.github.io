@@ -37,6 +37,7 @@
       <section>
           <div class="posts">
           {% for post in site.posts %}
+            {% if post.title %}
             <div>
               <article class="post">
                 <a href="{{ post.link }}">
@@ -54,6 +55,7 @@
                 </a>
               </article>
             </div>
+            {% endif %}
           {% endfor %}
         </div>
 
