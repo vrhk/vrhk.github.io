@@ -46,13 +46,15 @@
                   <div class="thumb">
                     <img src="{{ post.image }}">
                   </div>
-                  <header class="content">
-                    <h4>{{ post.title }}</h4>
-                    <p class="text">{{ post.text }}</p>
-                  </header>
-                  <footer>
-                    {{ post.domain }}
-                  </footer>
+                  <div class="content">
+                    <header>
+                      <h4>{{ post.title }}</h4>
+                    </header>
+                    <p>{{ post.text }}</p>
+                    <footer>
+                      {{ post.domain }}
+                    </footer>
+                  </div>
                 </a>
               </article>
             </div>
