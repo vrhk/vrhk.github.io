@@ -10,6 +10,8 @@
 
 .post h1, h2, h3, h4, h5 {
   margin: 0px; 
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .post a {
@@ -43,6 +45,6 @@
 
 .content {
   margin-left: 10em; 
-  min-height: 7em;
+  min-height: 8em;
 }
 
