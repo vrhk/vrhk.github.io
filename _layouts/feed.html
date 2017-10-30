@@ -44,6 +44,7 @@
               <article class="post">
                 <a href="{{ post.link }}">
                   <div class="thumb">
+                    {{ post.domain }}  
                     <img src="{{ post.image }}">
                   </div>
                   <div class="content">
@@ -51,9 +52,7 @@
                       <h4>{{ post.title }}</h4>
                     </header>
                     <p>{{ post.text }}</p>
-                    <footer>
-                      {{ post.domain }}
-                    </footer>
+                    <footer></footer>
                   </div>
                 </a>
               </article>
