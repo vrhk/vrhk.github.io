@@ -37,14 +37,14 @@
 }
 
 .post img { 
-  float: left;
   max-height: 3.7em;
+  float: left;
   max-width: 6em;
   margin-top: 0.3em;
   margin-right: 0.3em;
 }
 
-.content {
-
+.post .content {
+  min-height: 3.7em;
 }
 
