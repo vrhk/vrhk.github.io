@@ -3,6 +3,13 @@
 
 @import "{{ site.theme }}";
 
+// Keep small screen layout for all screens
+header, section, footer {
+  float:none;
+  position:static;
+  width:auto;
+}
+
 .post {
   font-weight: 200;
   margin-bottom: 2em;
@@ -47,4 +54,5 @@
 .post .content {
   min-height: 3.7em;
 }
+
 
