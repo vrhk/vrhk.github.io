@@ -35,7 +35,7 @@
                     <h4>{{ post.title }}</h4>
                   </header>
                   <div class="content">
-                    <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.text }}</p>
+                    <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt | post.text }}</p>
                   </div>
                   <footer></footer>
                 </a>
