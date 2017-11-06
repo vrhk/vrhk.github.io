@@ -26,7 +26,8 @@
       </header>
       <section>
           <div class="posts">
-          {% for post in site.posts %}
+          {% for post in site.posts limit:20 %}
+            <!-- TODO: {% for post in site.tags.<x> limit:20 %} -->
             {% if post.title %}
             <div>
               <article class="post">
