@@ -4,7 +4,7 @@ description: "Machine learning news and insights"
 
 timezone: Etc/GMT
 
-plugins: 
+plugins:
   - jekyll-feed
 
 theme: jekyll-theme-minimal
