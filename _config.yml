@@ -1,4 +1,12 @@
 theme: jekyll-theme-minimal
 
+name: VectorHack
+
+url: https://vectorhack.com
+name: VectorHack
+description: Machine learning news and insights
+
+timezone: Etc/GMT
+
 plugins:
   - jekyll-feed
