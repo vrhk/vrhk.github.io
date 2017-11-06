@@ -2,6 +2,7 @@
 
 layout: post
 channel: C7T0KGMT9
+tags: C7T0KGMT9
 title: "Overwatch lead Jeff Kaplan on Moira, Mercy’s troubles, and fixing toxicity"
 date: 2017-11-06
 link: https://venturebeat.com/2017/11/03/overwatch-lead-jeff-kaplan-on-moira-mercys-troubles-and-fixing-toxicity/
