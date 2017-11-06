@@ -26,13 +26,8 @@
       </header>
       <section>
           <div class="posts">
-            {% for post in site.posts limit:20 %}
-              <!-- TODO: {% for post in site.tags.<x> limit:20 %} -->
-              {% if post.title %}
-                <div>
+            {% for post in site.posts %}
 
-                </div>
-              {% endif %}
             {% endfor %}
           </div>
 
