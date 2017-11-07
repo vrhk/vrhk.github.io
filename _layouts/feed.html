@@ -27,21 +27,23 @@
       </header>
       <section>
         <div class="posts">
-          {% assign cat = page.category %}
-          {% for post in site.categories.cat %}
-            <div>
-              <article class="post">
-                <a href="{{ post.link }}">
-                  <header>
-                    <h4>{{ post.title }}</h4>
-                  </header>
-                  <div class="content">
-                    <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt }}</p>
-                  </div>
-                  <footer></footer>
-                </a>
-              </article>
-            </div>
+          {% for category in site.categories %}
+            Category: {{ category }}
+            {% for post in category %}
+              <div>
+                <article class="post">
+                  <a href="{{ post.link }}">
+                    <header>
+                      <h4>{{ post.title }}</h4>
+                    </header>
+                    <div class="content">
+                      <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt }}</p>
+                    </div>
+                    <footer></footer>
+                  </a>
+                </article>
+              </div>
+            {% endfor %}
           {% endfor %}
         </div>
 
