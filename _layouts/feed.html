@@ -15,8 +15,8 @@
   <body>
     <div class="wrapper">
       <header>
-        <a href="{{ site.github.url }}"> <h1>VectorHack</h1> </a>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <a href="/"> <h1>{{ site.name }} {{ page.name }} {{ page.category }}</h1> </a>
+        <p>{{ site.description }}</p>
 
         <!--<ul>
           <li><a href="subscribe">Subscribe to <strong>RSS</strong></a></li>
@@ -26,7 +26,7 @@
       </header>
       <section>
         <div class="posts">
-          {% for post in site.categories[{{ page.category }}] %}
+          {% for post in site.categories.[page.category] %}
           <div>
             <article class="post">
               <a href="{{ post.link }}">
