@@ -1,7 +1,7 @@
 ---
 
 layout: post
-category: C7T0KGMT9
+category: C7VJAGM2R
 
 title: "Amazon is discounting products from third-party sellers but risks angering merchants"
 date: 2017-11-06

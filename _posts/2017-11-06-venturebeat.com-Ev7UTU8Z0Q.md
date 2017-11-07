@@ -1,7 +1,7 @@
 ---
 
 layout: post
-category: C7T0KGMT9
+category: C7WAKBTB8
 
 title: "Chip industry turned upside down: Broadcom bids $130 billion for Qualcomm, Intel teams up with AMD"
 date: 2017-11-06 14:47:19 -0000

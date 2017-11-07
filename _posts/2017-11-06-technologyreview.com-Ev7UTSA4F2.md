@@ -1,7 +1,7 @@
 ---
 
 layout: post
-category: C7T0KGMT9
+category: C7VJAGM2R
 
 title: "Making job-training software people actually want to use"
 date: 2017-11-06 14:44:40 -0000

@@ -1,7 +1,7 @@
 ---
 
 layout: post
-category: C7T0KGMT9
+category: C7WAKBTB8
 
 title: "Album+ organizes photos with A.I. that runs on your phone, not in the cloud"
 date: 2017-11-06 16:41:23

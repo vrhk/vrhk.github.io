@@ -1,7 +1,7 @@
 ---
 
 layout: post
-category: C7T0KGMT9
+category: C7WAKBTB8
 
 title: "How AI helps job seekers land their dream job"
 date: 2017-11-06 16:22:23

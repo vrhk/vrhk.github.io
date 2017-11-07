@@ -1,7 +1,7 @@
 ---
 
 layout: post
-category: C7T0KGMT9
+category: C7WAKBTB8
 
 title: "DeepMind has yet to find out how smart its AlphaGo Zero AI could be"
 date: 2017-11-06 15:03:18

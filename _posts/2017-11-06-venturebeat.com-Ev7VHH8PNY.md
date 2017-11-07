@@ -1,7 +1,7 @@
 ---
 
 layout: post
-category: C7T0KGMT9
+category: C7WAKBTB8
 
 title: "Salesforce aims to make AI predictions easier for its customers"
 date: 2017-11-06
