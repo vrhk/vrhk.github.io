@@ -28,7 +28,8 @@
       <section>
         <div class="posts">
             {% for post in site.posts %}
-              {% if !page.category or page.category == post.category %}
+              post.category: {{ post.category }}
+              {% if page.category == post.category %}
                 <div>
                   <article class="post">
                     <a href="{{ post.link }}">
