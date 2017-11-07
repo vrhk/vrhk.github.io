@@ -27,31 +27,22 @@
       </header>
       <section>
         <div class="posts">
-            {% assign posts = site.posts %}
-            {% if page.category %}
-              {% for category in site.categories %}
-              category id: {{ category[0] }}
-                {% if category[0] == page.category %}
-                  Assigning posts
-                  {% posts = category %}
-                {% endif %}
-              {% endfor %}
-            {% endif %}
-
-            {% for post in posts %}
-              <div>
-                <article class="post">
-                  <a href="{{ post.link }}">
-                    <header>
-                      <h4>{{ post.title }}</h4>
-                    </header>
-                    <div class="content">
-                      <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt }}</p>
-                    </div>
-                    <footer></footer>
-                  </a>
-                </article>
-              </div>
+            {% for post in site.posts %}
+              {% if !page.category or page.category == post.category %}
+                <div>
+                  <article class="post">
+                    <a href="{{ post.link }}">
+                      <header>
+                        <h4>{{ post.title }}</h4>
+                      </header>
+                      <div class="content">
+                        <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt }}</p>
+                      </div>
+                      <footer></footer>
+                    </a>
+                  </article>
+                </div>
+              {% endif %}
             {% endfor %}
         </div>
 
