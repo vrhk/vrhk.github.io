@@ -6,7 +6,6 @@
 
 {% seo %}
 
-
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
@@ -16,14 +15,15 @@
   <body>
     <div class="wrapper">
       <header>
-        <a href="/"> <h1>{{ site.name }} {{ page.title }} {{ page.category }}</h1> </a>
+        <a href="/"> <h1>{{ site.name }}</h1> </a>
         <p>{{ site.description }}</p>
 
-        <ul>
+        <!--<ul>
           <li><a href="/research"><strong>research</strong></a></li>
           <li><a href="/engineering"><strong>engineering</strong></a></li>
           <li><a href="/product"><strong>product</strong></a></li>
-        </ul>
+        </ul>-->
+        <h3>{{ page.title }}</h2>
       </header>
       <section>
         <div class="posts">
@@ -36,7 +36,7 @@
                         <h4>{{ post.title }}</h4>
                       </header>
                       <div class="content">
-                        <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt }}</p>
+                        <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt | truncatewords: 100 }}</p>
                       </div>
                       <footer></footer>
                     </a>
