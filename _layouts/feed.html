@@ -6,6 +6,8 @@
 
 {% seo %}
 
+{% assign cat = page.category | downcase %}
+
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
@@ -26,7 +28,7 @@
       </header>
       <section>
         <div class="posts">
-          {% for post in site.categories.[C7WAG6QGN] %}
+          {% for post in site.categories.[cat] %}
           <div>
             <article class="post">
               <a href="{{ post.link }}">
