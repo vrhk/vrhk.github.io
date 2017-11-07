@@ -1,7 +1,8 @@
 ---
 
 layout: post
-channel: C7VJAGM2R
+category: C7VJAGM2R
+
 title: "U.S. officials are having a ‘Sputnik moment’ over AI innovation in China"
 date: 2017-11-06 21:17:14
 link: https://venturebeat.com/2017/11/06/u-s-officials-are-having-a-sputnik-moment-over-ai-innovation-in-china/

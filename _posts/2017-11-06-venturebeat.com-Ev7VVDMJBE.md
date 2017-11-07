@@ -1,7 +1,8 @@
 ---
 
 layout: post
-channel: C7VJAGM2R
+category: C7VJAGM2R
+
 title: "Will.i.am’s startup raises $117 million and launches bot engine for enterprise market"
 date: 2017-11-06 23:42:11
 link: https://venturebeat.com/2017/11/06/will-i-ams-startup-raises-117-million-and-launches-bot-engine-for-enterprise-market/

@@ -1,7 +1,8 @@
 ---
 
 layout: post
-channel: C7VJAGM2R
+category: C7VJAGM2R
+
 title: "AI-enabled technologies could help museums survive the digital age"
 date: 2017-11-06 22:52:19
 link: https://venturebeat.com/2017/11/06/ai-enabled-technologies-could-help-museums-survive-the-digital-age/
