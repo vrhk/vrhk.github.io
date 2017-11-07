@@ -28,20 +28,22 @@
       <section>
         <div class="posts">
             {% for post in site.posts %}
-              {% if page.category == nil or page.category == post.category %}
-                <div>
-                  <article class="post">
-                    <a href="{{ post.link }}">
-                      <header>
-                        <h4>{{ post.title }}</h4>
-                      </header>
-                      <div class="content">
-                        <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt | truncatewords: 60 }}</p>
-                      </div>
-                      <footer></footer>
-                    </a>
-                  </article>
-                </div>
+              {% if post.link and post.title or post.excerpt %}
+                {% if page.category == nil or page.category == post.category %}
+                  <div>
+                    <article class="post">
+                      <a href="{{ post.link }}">
+                        <header>
+                          <h4>{{ post.title }}</h4>
+                        </header>
+                        <div class="content">
+                          <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt | truncatewords: 60 }}</p>
+                        </div>
+                        <footer></footer>
+                      </a>
+                    </article>
+                  </div>
+                {% endif %}
               {% endif %}
             {% endfor %}
         </div>
