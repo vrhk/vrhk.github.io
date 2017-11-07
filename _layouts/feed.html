@@ -19,26 +19,25 @@
         <a href="/"> <h1>{{ site.name }} {{ page.title }} {{ page.category }}</h1> </a>
         <p>{{ site.description }}</p>
 
-        <!--<ul>
-          <li><a href="subscribe">Subscribe to <strong>RSS</strong></a></li>
-          <li><a href="subscribe">Subscribe to <strong>email</strong></a></li>
-          <li><a href="subscribe">Subscribe to <strong>email</strong></a></li>
-        </ul>-->
+        <ul>
+          <li><a href="/research">/<strong>research</strong></a></li>
+          <li><a href="/engineering">/<strong>engineering</strong></a></li>
+          <li><a href="/product">/<strong>product</strong></a></li>
+        </ul>
       </header>
       <section>
         <div class="posts">
+            {% assign posts = site.posts %}
             {% if page.category %}
               {% for category in site.categories %}
-                category id: {{ category[0] }}
+              category id: {{ category[0] }}
                 {% if category[0] == page.category %}
                   Assigning posts
                   {% assign posts = category %}
                 {% endif %}
               {% endfor %}
-            {% else %}
-              No category
-              {% assign posts = site.posts %}
             {% endif %}
+
             {% for post in posts %}
               <div>
                 <article class="post">
