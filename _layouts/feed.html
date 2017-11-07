@@ -28,7 +28,6 @@
       <section>
         <div class="posts">
             {% for post in site.posts %}
-              post.category: {{ post.category }}
               {% if page.category == nil or page.category == post.category %}
                 <div>
                   <article class="post">
