@@ -1,5 +1,5 @@
 ---
 layout: feed
-name: Research
+title: Research
 category: C7WAG6QGN
 ---
