@@ -27,9 +27,20 @@
       </header>
       <section>
         <div class="posts">
-            {% assign category = site.categories[page.category] %}
-            Category: {{ category }}
-            {% for post in category %}
+            Category: {{ pages.category }}
+            {% if page.category %}
+              {% for category in site.categories %}
+                category: {{ category }}
+                {% if category == page.category %}
+                  Assigning posts
+                  {% assign posts = category %}
+                {% endif %}
+              {% endfor %}
+            {% else %}
+              No category
+              {% assign posts = site.posts %}
+            {% endif %}
+            {% for post in posts %}
               <div>
                 <article class="post">
                   <a href="{{ post.link }}">
