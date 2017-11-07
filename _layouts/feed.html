@@ -20,9 +20,9 @@
         <p>{{ site.description }}</p>
 
         <ul>
-          <li><a href="/research">/<strong>research</strong></a></li>
-          <li><a href="/engineering">/<strong>engineering</strong></a></li>
-          <li><a href="/product">/<strong>product</strong></a></li>
+          <li><a href="/research"><strong>research</strong></a></li>
+          <li><a href="/engineering"><strong>engineering</strong></a></li>
+          <li><a href="/product"><strong>product</strong></a></li>
         </ul>
       </header>
       <section>
@@ -33,7 +33,7 @@
               category id: {{ category[0] }}
                 {% if category[0] == page.category %}
                   Assigning posts
-                  {% assign posts = category %}
+                  {% posts = category %}
                 {% endif %}
               {% endfor %}
             {% endif %}
