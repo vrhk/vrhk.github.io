@@ -1,7 +1,8 @@
 ---
 
 layout: post
-channel: C7VJAGM2R
+category: C7T0KGMT9
+
 title: "Making job-training software people actually want to use"
 date: 2017-11-06 14:44:40 -0000
 link: https://www.technologyreview.com/s/609295/making-job-training-software-people-actually-want-to-use/

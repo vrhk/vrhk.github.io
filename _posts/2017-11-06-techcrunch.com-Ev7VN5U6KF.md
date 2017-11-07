@@ -1,7 +1,8 @@
 ---
 
 layout: post
-channel: C7VJAGM2R
+category: C7T0KGMT9
+
 title: "DeepMind has yet to find out how smart its AlphaGo Zero AI could be"
 date: 2017-11-06 15:03:18
 link: https://techcrunch.com/2017/11/02/deepmind-has-yet-to-find-out-how-smart-its-alphago-zero-ai-could-be/

@@ -1,7 +1,8 @@
 ---
 
 layout: post
-channel: C7RF1JVPU
+category: C7T0KGMT9
+
 title: "The end of the cloud is coming"
 date: 2017-11-04
 link: https://venturebeat.com/2017/11/04/the-end-of-the-cloud-is-coming/

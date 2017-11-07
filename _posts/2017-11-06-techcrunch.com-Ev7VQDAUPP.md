@@ -1,7 +1,8 @@
 ---
 
 layout: post
-channel: C7VJAGM2R
+category: C7T0KGMT9
+
 title: "Album+ organizes photos with A.I. that runs on your phone, not in the cloud"
 date: 2017-11-06 16:41:23
 link: https://techcrunch.com/2017/11/06/album-organizes-photos-with-a-i-that-runs-on-your-phone-not-in-the-cloud/?ncid=rss
@@ -13,65 +14,65 @@ excerpt: "A new iOS app called Album+ is taking advantage of the increased A.I. 
 This allows for increased consumer privacy, the company explains.
 &ldquo;We believe user content privacy will be the main concern for consumers over the next decade,&rdquo; says Sam Sabri, head of growth at Polarr, the company behind Album+. &ldquo;No one wants to upload their photos to a server that might leak their behavioral patterns to advertising companies, but most people still need the computing services provided by the cloud, such as image classification and search categorizations,&rdquo; he says. &ldquo;Our team spent a lot of time compressing A.I. models to make sure they can run fast and energy-efficient on mobile devices.&rdquo;
 
-    
-		            
+
+
 		            A+ iphone7 1
-		            
-		            
-		        
-		            
+
+
+
+
 		            A+ iphone7 3
-		            
-		            
-		        
-		            
+
+
+
+
 		            A+ iphone7 4
-		            
-		            
-		        
-		            
+
+
+
+
 		            A+ iphone7 5
-		            
-		            
-		        
-		            
+
+
+
+
 		            A+ iphone7 2
-		            
-		            
-		        
-		            
+
+
+
+
 		            A+ iphonex 4
-		            
-		            
-		        
-		            
+
+
+
+
 		            A+ iphonex 5
-		            
-		            
-		        
-		            
+
+
+
+
 		            A+ iphonex 3
-		            
-		            
-		        
-		            
+
+
+
+
 		            A+ iphonex 2
-		            
-		            
-		        
-		            
+
+
+
+
 		            A+ iphonex 1
-		            
-		            
-		        
+
+
+
 	        &nbsp;View Slideshow
-	    
-	    
+
+
 	        Previous
 	        Next
 	        Exit
-	    
-	
+
+
 The app also demonstrates how powerful smartphones have become.
 Like Google Photos, Album+ can also automatically recognize, categorize and organize the people, objects, places, documents and receipts in your photos. It can remove duplicate photos and other poorly shot images, as well as rank similar photos based on aesthetics. And it offers a variety of tools to help you do more with photos &ndash; like a collage maker, and a way to batch edit hundreds of photos at once to do things like apply filters, mass delete, etc.
 
@@ -96,65 +97,65 @@ A new iOS app called Album+ is taking advantage of the increased A.I. capabiliti
 This allows for increased consumer privacy, the company explains.
 &ldquo;We believe user content privacy will be the main concern for consumers over the next decade,&rdquo; says Sam Sabri, head of growth at Polarr, the company behind Album+. &ldquo;No one wants to upload their photos to a server that might leak their behavioral patterns to advertising companies, but most people still need the computing services provided by the cloud, such as image classification and search categorizations,&rdquo; he says. &ldquo;Our team spent a lot of time compressing A.I. models to make sure they can run fast and energy-efficient on mobile devices.&rdquo;
 
-    
-		            
+
+
 		            A+ iphone7 1
-		            
-		            
-		        
-		            
+
+
+
+
 		            A+ iphone7 3
-		            
-		            
-		        
-		            
+
+
+
+
 		            A+ iphone7 4
-		            
-		            
-		        
-		            
+
+
+
+
 		            A+ iphone7 5
-		            
-		            
-		        
-		            
+
+
+
+
 		            A+ iphone7 2
-		            
-		            
-		        
-		            
+
+
+
+
 		            A+ iphonex 4
-		            
-		            
-		        
-		            
+
+
+
+
 		            A+ iphonex 5
-		            
-		            
-		        
-		            
+
+
+
+
 		            A+ iphonex 3
-		            
-		            
-		        
-		            
+
+
+
+
 		            A+ iphonex 2
-		            
-		            
-		        
-		            
+
+
+
+
 		            A+ iphonex 1
-		            
-		            
-		        
+
+
+
 	        &nbsp;View Slideshow
-	    
-	    
+
+
 	        Previous
 	        Next
 	        Exit
-	    
-	
+
+
 The app also demonstrates how powerful smartphones have become.
 Like Google Photos, Album+ can also automatically recognize, categorize and organize the people, objects, places, documents and receipts in your photos. It can remove duplicate photos and other poorly shot images, as well as rank similar photos based on aesthetics. And it offers a variety of tools to help you do more with photos &ndash; like a collage maker, and a way to batch edit hundreds of photos at once to do things like apply filters, mass delete, etc.
 

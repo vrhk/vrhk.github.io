@@ -1,7 +1,8 @@
 ---
 
 layout: post
-channel: C7VJAGM2R
+category: C7T0KGMT9
+
 title: "Salesforce’s Einstein AI debuts bot platform for businesses"
 date: 2017-11-06
 link: https://venturebeat.com/2017/11/06/salesforces-einstein-ai-debuts-bot-platform-for-businesses/
