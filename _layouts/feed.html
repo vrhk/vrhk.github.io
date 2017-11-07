@@ -27,7 +27,7 @@
       </header>
       <section>
         <div class="posts">
-          {% for category in site.categories %}
+            {% assign category = site.categories[page.category] %}
             Category: {{ category }}
             {% for post in category %}
               <div>
@@ -44,7 +44,6 @@
                 </article>
               </div>
             {% endfor %}
-          {% endfor %}
         </div>
 
     </section>
