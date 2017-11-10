@@ -10,13 +10,25 @@ header, section, footer {
   width:auto;
 }
 
+header a {
+  font-weight: 200;
+}
+
+header a:hover {
+  font-weight: 200;
+}
+
+header a:active {
+  color: darkgrey;
+}
+
 .post {
   font-weight: 200;
   margin-bottom: 2em;
 }
 
 .post h1, h2, h3, h4, h5 {
-  margin: 0px; 
+  margin: 0px;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -28,6 +40,10 @@ header, section, footer {
 
 .post a:hover, a:focus {
   font-weight: 200;
+}
+
+.post a:visited {
+  color: lightgrey;
 }
 
 .post p {
@@ -43,7 +59,7 @@ header, section, footer {
   padding-right: 0.5em;
 }
 
-.post img { 
+.post img {
   max-height: 3.7em;
   float: left;
   max-width: 6em;
@@ -54,5 +70,3 @@ header, section, footer {
 .post .content {
   min-height: 3.7em;
 }
-
-
