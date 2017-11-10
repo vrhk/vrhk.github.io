@@ -10,9 +10,12 @@ header, section, footer {
   width:auto;
 }
 
+header p {
+  font-size: 0.7em;
+}
+
 header a {
   font-weight: 200;
-  font-size: 0.7em;
   padding-right: 1em;
   white-space: nowrap;
 }
@@ -22,11 +25,13 @@ header a:hover {
 }
 
 .post {
+  font-size: 0.7em;
   font-weight: 200;
   margin-bottom: 2em;
 }
 
 .post h1, h2, h3, h4, h5 {
+  font-weight: 500;
   margin: 0px;
   white-space: nowrap;
   overflow: hidden;
@@ -54,7 +59,7 @@ header a:hover {
 }
 
 .domain {
-  color: lightgrey;
+  color: black;
   padding-right: 0.5em;
 }
 
