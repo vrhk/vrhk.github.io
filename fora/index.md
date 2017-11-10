@@ -1,6 +1,6 @@
 ---
 layout: feed
-title: Fora
+title: fora
 category: C7WHBLNLR
 fa_icon: comments
 ---

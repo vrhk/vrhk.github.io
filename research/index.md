@@ -1,6 +1,6 @@
 ---
 layout: feed
-title: Research
+title: research
 category: C7WAG6QGN
 fa_icon: area-chart
 ---
