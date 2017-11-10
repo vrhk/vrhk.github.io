@@ -18,12 +18,16 @@
       <header>
         <a href="/"><h2>{{ site.name }}</h2></a>
         <p>{{ site.description }}</p>
-        <p>
-          <a href="/research/"><i class="fa fa-area-chart"></i> research</a>
-          <a href="/engineering/"><i class="fa fa-code"></i> engineering</a>
-          <a href="/product/"><i class="fa fa-laptop"></i> product</a>
-          <a href="/fora/"><i class="fa fa-comments"></i> fora</a>
-        </p>
+        <center>
+          <div class="menu">
+            <p>
+              <a href="/research/"><i class="fa fa-area-chart"></i> research</a>
+              <a href="/engineering/"><i class="fa fa-code"></i> engineering</a>
+              <a href="/product/"><i class="fa fa-laptop"></i> product</a>
+              <a href="/fora/"><i class="fa fa-comments"></i> fora</a>
+            </p>
+          </div>
+        </center>
       </header>
       <section>
         <p><i class="fa fa-{{ page.fa_icon }}"></i> {{ page.title }}</p>
@@ -37,7 +41,7 @@
                       <article class="post">
                         <a href="{{ post.link }}">
                           <header>
-                            <h4>{{ post.title }}</h4>
+                            <h3>{{ post.title }}</h3>
                           </header>
                           <div class="content">
                             <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt | truncatewords: 60 }}</p>

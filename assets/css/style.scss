@@ -10,17 +10,17 @@ header, section, footer {
   width:auto;
 }
 
-header p {
+.menu {
   font-size: 0.7em;
 }
 
-header a {
+.menu a {
   font-weight: 200;
-  padding-right: 1em;
+  padding-right: 2em;
   white-space: nowrap;
 }
 
-header a:hover {
+.menu a:hover {
   font-weight: 200;
 }
 
@@ -31,9 +31,7 @@ header a:hover {
 }
 
 .post h1, h2, h3, h4, h5 {
-  font-weight: 500;
   margin: 0px;
-  white-space: nowrap;
   overflow: hidden;
 }
 
