@@ -7,6 +7,7 @@
 {% seo %}
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -18,31 +19,35 @@
         <a href="/"> <h1>{{ site.name }}</h1> </a>
         <p>{{ site.description }}</p>
 
-        <!--<ul>
-          <li><a href="/research"><strong>research</strong></a></li>
-          <li><a href="/engineering"><strong>engineering</strong></a></li>
-          <li><a href="/product"><strong>product</strong></a></li>
-        </ul>-->
-        <h3>{{ page.title }}</h2>
+        <ul>
+          <li><a href="/research">research<strong><i class="fa fa-area-chart"></i></strong></a></li>
+          <li><a href="/engineering">engineering<strong><i class="fa fa-code"></i></strong></a></li>
+          <li><a href="/product">product<strong><i class="fa fa-laptop"></i></strong></a></li>
+          <li><a href="/fora">fora<strong><i class="fa fa-comments"></i></strong></a></li>
+        </ul>
+
       </header>
       <section>
         <div class="posts">
             {% for post in site.posts %}
               {% if post.link and post.title or post.excerpt %}
                 {% if page.category == nil or page.category == post.category %}
-                  <div>
-                    <article class="post">
-                      <a href="{{ post.link }}">
-                        <header>
-                          <h4>{{ post.title }}</h4>
-                        </header>
-                        <div class="content">
-                          <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt | truncatewords: 60 }}</p>
-                        </div>
-                        <footer></footer>
-                      </a>
-                    </article>
-                  </div>
+                  {% if page.category != nil or page.category != 'C7WHBLNLR' %}
+
+                    <div>
+                      <article class="post">
+                        <a href="{{ post.link }}">
+                          <header>
+                            <h4>{{ post.title }}</h4>
+                          </header>
+                          <div class="content">
+                            <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt | truncatewords: 60 }}</p>
+                          </div>
+                          <footer></footer>
+                        </a>
+                      </article>
+                    </div>
+                  {% endif %}
                 {% endif %}
               {% endif %}
             {% endfor %}
