@@ -19,11 +19,11 @@
         <a href="/"> <h1>{{ site.name }}</h1> </a>
         <p>{{ site.description }}</p>
 
-        <ul>
-          <li><a href="/research">research<strong><i class="fa fa-area-chart"></i></strong></a></li>
-          <li><a href="/engineering">engineering<strong><i class="fa fa-code"></i></strong></a></li>
-          <li><a href="/product">product<strong><i class="fa fa-laptop"></i></strong></a></li>
-          <li><a href="/fora">fora<strong><i class="fa fa-comments"></i></strong></a></li>
+        <p>
+          <a href="/research"><i class="fa fa-area-chart"></i>research</a>
+          <a href="/engineering"><i class="fa fa-code"></i>engineering</a>
+          <a href="/product"><i class="fa fa-laptop"></i>product</a>
+          <a href="/fora"><i class="fa fa-comments"></i>fora</a>
         </ul>
 
       </header>
@@ -32,8 +32,7 @@
             {% for post in site.posts %}
               {% if post.link and post.title or post.excerpt %}
                 {% if page.category == nil or page.category == post.category %}
-                  {% if page.category != nil or page.category != 'C7WHBLNLR' %}
-
+                  {% if page.category != nil or post.category != 'C7WHBLNLR' %}
                     <div>
                       <article class="post">
                         <a href="{{ post.link }}">
