@@ -30,7 +30,8 @@ header, section, footer {
   margin-bottom: 2em;
 }
 
-.post h1, h2, h3, h4, h5 {
+.post header {
+  font-size: 1.4em;
   margin: 0px;
   overflow: hidden;
 }
@@ -45,10 +46,6 @@ header, section, footer {
 }
 
 .post a:visited  {
-  color: lightgrey;
-}
-
-.post a:visited h1, h2, h3, h4, h5 {
   color: lightgrey;
 }
 
