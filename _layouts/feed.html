@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ site.name }} | {{ page.title }}</title>
 
 {% seo %}
 
@@ -12,7 +13,6 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>{{ site.name }} | {{ page.title }}</title>
   </head>
   <body>
     <div class="wrapper">
@@ -48,7 +48,7 @@
                             <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt | truncatewords: 60 }}</p>
                           </div>
                           <footer>
-                            {{ page.date | timeago }}
+                            {{ post.date | timeago }}
                           </footer>
                         </a>
                       </article>
