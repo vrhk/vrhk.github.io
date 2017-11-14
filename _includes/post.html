@@ -1,0 +1,17 @@
+
+      <div>
+        <article class="post">
+          {%if (post.date | date: '%s' | plus: 0) < yesterday  %}
+            {{ (post.date | date: '%s' | plus: 0) }} < yesterday
+          {% endif %}
+          <a href="{{ post.link }}">
+            <header>
+              {{ post.title }}
+            </header>
+            <div class="content">
+              <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt | truncatewords: 60 }}</p>
+            </div>
+            <footer>{{ post.date }} ({{ post.date | date: '%s' }})</footer>
+          </a>
+        </article>
+      </div>

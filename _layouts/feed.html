@@ -35,27 +35,12 @@
 
         <div class="posts">
             {% assign yesterday = (site.time | date: '%s' | minus: 86400) %}
-
+            yesterday: {{ yesterday }}
             {% for post in site.posts %}
               {% if post.link and post.title or post.excerpt %}
                 {% if page.category == nil or page.category == post.category %}
                   {% if page.category != nil or post.category != 'C7WHBLNLR' %}
-                    <div>
-                      <article class="post">
-                        {%if (post.date | date: '%s' | plus: 0) < yesterday  %}
-                          yesterday
-                        {% endif %}
-                        <a href="{{ post.link }}">
-                          <header>
-                            {{ post.title }}
-                          </header>
-                          <div class="content">
-                            <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt | truncatewords: 60 }}</p>
-                          </div>
-                          <footer>{{ post.date }} ({{ post.date | date: '%s' }})</footer>
-                        </a>
-                      </article>
-                    </div>
+                    {% include post.html %}
                   {% endif %}
                 {% endif %}
               {% endif %}
