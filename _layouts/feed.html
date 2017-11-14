@@ -34,16 +34,17 @@
         <p><i class="fa fa-{{ page.fa_icon }}"></i> {{ page.title }}</p>
 
         <div class="posts">
+            {% assign yesterday = (site.time | date: '%s' | minus: 86400) %}
+
             {% for post in site.posts %}
-              {% assign yesterday = (site.time | date: '%s' | minus: 86400) %}
-              {%if (post.date | date: '%s' | plus: 0) < yesterday  %}
-                yesterday
-              {% endif %}
               {% if post.link and post.title or post.excerpt %}
                 {% if page.category == nil or page.category == post.category %}
                   {% if page.category != nil or post.category != 'C7WHBLNLR' %}
                     <div>
                       <article class="post">
+                        {%if (post.date | date: '%s' | plus: 0) < yesterday  %}
+                          yesterday
+                        {% endif %}
                         <a href="{{ post.link }}">
                           <header>
                             {{ post.title }}
