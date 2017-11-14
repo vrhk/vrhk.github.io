@@ -8,5 +8,8 @@ timezone: Etc/GMT
 
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 10
 
 theme: jekyll-theme-minimal
