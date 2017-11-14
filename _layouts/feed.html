@@ -34,7 +34,7 @@
         <p><i class="fa fa-{{ page.fa_icon }}"></i> {{ page.title }}</p>
 
         <div class="posts">
-            {% for post in site.posts | where: 'date', today) %}
+            {% for post in (site.posts | where: "date", today) %}
               {% if post.link and post.title or post.excerpt %}
                 {% if page.category == nil or page.category == post.category %}
                   {% if page.category != nil or post.category != 'C7WHBLNLR' %}
