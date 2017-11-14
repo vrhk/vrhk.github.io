@@ -35,9 +35,13 @@
 
         <div class="posts">
             {% capture nowDate %}{{ site.time | date: '%s' }}{% endcapture %}
+            {% assign pastDate = nowDate - (60 * 60 * 24) %}
+            pastDate: {{ pastDate }}
             {% for post in site.posts %}
               {% capture postDate %}{{ post.date | date: '%s' }}{% endcapture %}
-              {% if postDate < (nowDate - (60 * 60 * 24)) %}
+              postDate: {{ postDate }}
+              {% if postDate < pastDate %}
+                break
                 {% break %}
               {% endif %}
               {% if post.link and post.title or post.excerpt %}
