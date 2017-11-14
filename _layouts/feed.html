@@ -35,6 +35,10 @@
 
         <div class="posts">
             {% for post in site.posts %}
+              {% assign yesterday = (site.time | date: '%s' | minus: 86400) %}
+              {%if (post.date | date: '%s' | plus: 0) < yesterday  %}
+                yesterday
+              {% endif %}
               {% if post.link and post.title or post.excerpt %}
                 {% if page.category == nil or page.category == post.category %}
                   {% if page.category != nil or post.category != 'C7WHBLNLR' %}
