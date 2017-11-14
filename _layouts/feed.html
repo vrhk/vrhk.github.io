@@ -35,13 +35,8 @@
 
         <div class="posts">
             {% capture nowDate %}{{ site.time | date: '%F' }}{% endcapture %}
-            {{ nowDate }} ({{ (nowDate | minus:1) }})
-            {% for post in (site.posts | where: "date", today) %}
-              {% capture postDate %}{{ post.date | date: '%F' }}{% endcapture %}
-              <strong>{{ postDate }}</strong><br/>
-              {% if (post.date) < (nowDate | minus:1) %}
-                {% break %}
-              {% endif %}
+            {{ nowDate }}
+            {% for post in site.posts %}
               {% if post.link and post.title or post.excerpt %}
                 {% if page.category == nil or page.category == post.category %}
                   {% if page.category != nil or post.category != 'C7WHBLNLR' %}
