@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>{{ site.name }} | {{ page.title }}</title>
+    <title>{{ site.name }} {{ page.title }}</title>
 
 {% seo %}
 
@@ -34,7 +34,14 @@
         <p><i class="fa fa-{{ page.fa_icon }}"></i> {{ page.title }}</p>
 
         <div class="posts">
+            {% capture nowDate %}{{ site.time | date: '%F' }}{% endcapture %}
+            {{ nowDate }} ({{ (nowDate | minus:1) }})
             {% for post in (site.posts | where: "date", today) %}
+              {% capture postDate %}{{ post.date | date: '%F' }}{% endcapture %}
+              <strong>{{ postDate }}</strong><br/>
+              {% if (post.date) < (nowDate | minus:1) %}
+                {% break %}
+              {% endif %}
               {% if post.link and post.title or post.excerpt %}
                 {% if page.category == nil or page.category == post.category %}
                   {% if page.category != nil or post.category != 'C7WHBLNLR' %}
@@ -47,9 +54,7 @@
                           <div class="content">
                             <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt | truncatewords: 60 }}</p>
                           </div>
-                          <footer>
-                            {{ post.date | timeago }}
-                          </footer>
+                          <footer></footer>
                         </a>
                       </article>
                     </div>
