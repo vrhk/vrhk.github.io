@@ -35,15 +35,14 @@
 
         <div class="posts">
             {% capture nowDate %}{{ site.time | date: '%s' }}{% endcapture %}
+            nowDate: {{ nowDate }}<br/>
             {% assign pastDate = nowDate - (60 * 60 * 24) %}
-            pastDate: {{ pastDate }}
+            pastDate: {{ pastDate }}<br/>
             {% for post in site.posts %}
+
               {% capture postDate %}{{ post.date | date: '%s' }}{% endcapture %}
-              postDate: {{ postDate }}
-              {% if postDate < pastDate %}
-                break
-                {% break %}
-              {% endif %}
+              postDate: ({{ post.date }}) {{ postDate }}<br/>
+
               {% if post.link and post.title or post.excerpt %}
                 {% if page.category == nil or page.category == post.category %}
                   {% if page.category != nil or post.category != 'C7WHBLNLR' %}
@@ -62,6 +61,11 @@
                     </div>
                   {% endif %}
                 {% endif %}
+              {% endif %}
+
+              {% if postDate < pastDate %}
+                break
+                {% break %}
               {% endif %}
             {% endfor %}
         </div>
