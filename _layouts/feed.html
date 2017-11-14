@@ -34,9 +34,12 @@
         <p><i class="fa fa-{{ page.fa_icon }}"></i> {{ page.title }}</p>
 
         <div class="posts">
-            {% capture nowDate %}{{ site.time | date: '%F' }}{% endcapture %}
-            {{ nowDate }}
+            {% capture nowDate %}{{ site.time | date: '%s' }}{% endcapture %}
             {% for post in site.posts %}
+              {% capture postDate %}{{ post.date | date: '%s' }}{% endcapture %}
+              {% if postDate < (nowDate - (60 * 60 * 24)) %}
+                {% break %}
+              {% endif %}
               {% if post.link and post.title or post.excerpt %}
                 {% if page.category == nil or page.category == post.category %}
                   {% if page.category != nil or post.category != 'C7WHBLNLR' %}
