@@ -48,7 +48,7 @@
                     {% assign hours_ago = time_ago | divided_by: 3600 %}
                     {% assign days_ago = time_ago | divided_by: 86400 %}
 
-                    {% if days_ago > 1 and days_ago > hr_days_ago  %}
+                    {% if days_ago > 0 and days_ago > hr_days_ago  %}
                       {% assign hr_days_ago = days_ago %}
                       <hr>
                     {% endif %}
