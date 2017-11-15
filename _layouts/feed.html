@@ -41,20 +41,25 @@
             yesterday: {{ yesterday }}
 
             {% assign post_count = 0 %}
+            {% assign hr_count = 0 %}
 
             {% for post in site.posts %}
               {% if post.link and post.title or post.excerpt %}
                 {% if page.category == nil or page.category == post.category %}
                   {% if page.category != nil or post.category != 'C7WHBLNLR' %}
 
-                    {% assign post_date = post.date | date: '%s' | plus: 0 %}
-                    post_date: {{ post_date }}
-                    {%if post_date < cutoff  %}
-                      {{ post_date) }} < {{ cutoff }}
-                    {% endif %}
-
                     {% assign post_count = post_count | plus: 1 %}
                     post_count: {{ post_count }}
+                    {% if post_count > 20 %}
+                      {% break %}
+                    {% endif %}
+                    {% assign post_date = post.date | date: '%s' | plus: 0 %}
+                    post_date: {{ post_date }}
+                    {%if yesterday and (post_date < yesterday)  %}
+                      {{ post_date) }} < {{ yesterday }}
+                      {% assign yesterday = nil %}
+                      <div><hr>yesterday</div>
+                    {% endif %}
 
                     {% include post.html %}
 
