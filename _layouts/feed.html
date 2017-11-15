@@ -58,7 +58,8 @@
                     {% assign minutes_ago = time_ago | divided_by: 60 %}
                     {% assign hours_ago = time_ago | divided_by: 3600 %}
                     {% assign days_ago = time_ago | divided_by: 86400 %}
-                    days ago: {{ days_ago }}
+                    {% assign months_ago = time_ago | divided_by: 86400 %}
+                    {% assign years_ago = time_ago | divided_by: 86400 %}
 
                     {% if days_ago > 1 and days_ago > hr_days_ago  %}
                       {% assign hr_days_ago = days_ago %}

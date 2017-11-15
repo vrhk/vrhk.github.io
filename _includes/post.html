@@ -14,15 +14,15 @@
               {% elsif minutes_ago < 60 %}
                 {{ minutes_ago }} minutes ago
               {% elsif hours_ago == 1 %}
-                  1 hour ago
+                1 hour ago
               {% elsif hours_ago < 24 %}
                 {{ hours_ago }} hours ago
               {% elsif days_ago == 1 %}
-                  1 day ago
-              {% elsif days_ago < 7 %}
-                 {{ days_ago }} days ago
+                1 day ago
+              {% elsif days_ago < 300 %}
+                {{ post.date | "%-d %B" }}
               {% else %}
-                 {{ post.date | "%A, %-d %B, %Y" }}
+                {{ post.date | "%-d %B %Y" }}
               {% endif %}
             </footer>
           </a>
