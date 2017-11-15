@@ -11,7 +11,7 @@
             <footer>
               {% if yesterday %}
                 {{ post.date | %R}}
-              {% elif yesterweek %}
+              {% elsif yesterweek %}
                 {{ post.date | %A}}
               {% else %}
                 {{ post.date | %-d %b }}
