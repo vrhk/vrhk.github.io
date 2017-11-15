@@ -9,6 +9,13 @@
               <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt | truncatewords: 60 }}</p>
             </div>
             <footer>
+              {% if minutes_ago <= 1 %}
+                now
+              {% elsif minutes_ago > 1 and minutes_ago < 60 %}
+                {{ minutes_ago }} minutes ago
+              {% elsif hours_ago > 1 and hours_ago < 60%}
+                {{ minutes_ago }} minutes ago
+              {% endif %}
             </footer>
           </a>
         </article>

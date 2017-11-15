@@ -55,6 +55,8 @@
 
                     {% assign post_date = post.date | date: '%s' | plus: 0 %}
                     {% assign time_ago = site_time | minus: post_date %}
+                    {% assign minutes_ago = time_ago | divided_by: 60 %}
+                    {% assign hours_ago = time_ago | divided_by: 3600 %}
                     {% assign days_ago = time_ago | divided_by: 86400 %}
                     days ago: {{ days_ago }}
 
