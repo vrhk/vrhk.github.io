@@ -6,26 +6,30 @@
               {{ post.title }}
             </header>
             <div class="content">
-              <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt | truncatewords: 60 }}</p>
+              <p><img src="{{ post.image }}"><span class="domain">
+                {{ post.domain }}
+                {% if minutes_ago <= 1 %}
+                  just now
+                {% elsif minutes_ago < 60 %}
+                  {{ minutes_ago }} minutes ago
+                {% elsif hours_ago == 1 %}
+                  1 hour ago
+                {% elsif hours_ago < 24 %}
+                  {{ hours_ago }} hours ago
+                {% elsif days_ago == 1 %}
+                  1 day ago
+                {% elsif days_ago < 30 %}
+                  {{ days_ago }} days ago
+                {% elsif days_ago < 330 %}
+                  {{ post.date | date: "%-d %B" }}
+                {% else %}
+                  {{ post.date | date: "%-d %B %Y" }}
+                {% endif %}
+              </span>
+              </p>
+              <p>{{ post.excerpt | truncatewords: 60 }}</p>
             </div>
             <footer>
-              {% if minutes_ago <= 1 %}
-                now
-              {% elsif minutes_ago < 60 %}
-                {{ minutes_ago }} minutes ago
-              {% elsif hours_ago == 1 %}
-                1 hour ago
-              {% elsif hours_ago < 24 %}
-                {{ hours_ago }} hours ago
-              {% elsif days_ago == 1 %}
-                1 day ago
-              {% elsif days_ago < 30 %}
-                {{ days_ago }} days ago
-              {% elsif days_ago < 330 %}
-                {{ post.date | date: "%-d %B" }}
-              {% else %}
-                {{ post.date | date: "%-d %B %Y" }}
-              {% endif %}
             </footer>
           </a>
         </article>

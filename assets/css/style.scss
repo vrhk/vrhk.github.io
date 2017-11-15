@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+.wrapper {
+  max-width: 700px;
+}
+
 // Keep small screen layout for all screens
 header, section, footer {
   float:none;
