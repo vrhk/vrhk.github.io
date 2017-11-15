@@ -49,7 +49,7 @@
                   {% if page.category != nil or post.category != 'C7WHBLNLR' %}
 
                     {% assign post_count = post_count | plus: 1 %}
-                    {% if post_count > 20 %}
+                    {% if post_count > 50 %}
                       {% break %}
                     {% endif %}
 
@@ -62,9 +62,15 @@
                     {% assign days_ago = time_ago | divided_by: 86400 %}
                     days ago: {{ days_ago }}
 
-                    {%if days_ago > 1 and days_ago > hr_days_ago  %}
+                    {% if days_ago > 1 and days_ago > hr_days_ago  %}
                       {% assign hr_days_ago = days_ago %}
-                      <div><hr>yesterday</div>
+                      {% if days_ago == 2 %}
+                        <div><hr>yesterday</div>
+                      {% elsif %}
+                        <div><hr>{{ post.date | %A}}</div>
+                      {% else %}
+                        <div><hr>{{ post.date | %A, %-d %b }}</div>
+                      {% endif %}
                     {% endif %}
 
                     {% include post.html %}

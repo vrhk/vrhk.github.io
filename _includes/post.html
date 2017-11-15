@@ -9,13 +9,6 @@
               <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt | truncatewords: 60 }}</p>
             </div>
             <footer>
-              {% if yesterday %}
-                {{ post.date | %R}}
-              {% elsif yesterweek %}
-                {{ post.date | %A}}
-              {% else %}
-                {{ post.date | %-d %b }}
-              {% endif %}
             </footer>
           </a>
         </article>
