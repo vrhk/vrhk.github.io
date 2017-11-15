@@ -1,8 +1,10 @@
 
       <div>
         <article class="post">
-          {%if (post.date | date: '%s' | plus: 0) < cutoff  %}
-            {{ (post.date | date: '%s' | plus: 0) }} < cutoff
+          post date: {{ post.date | date: '%s' }}
+          plus period: {{ (post.date | date: '%s' | plus: 86400) }}
+          {%if (post.date | date: '%s' | plus: 86400) < site_time  %}
+            {{ (post.date | date: '%s' | plus: 86400) }} < site_time
           {% endif %}
           <a href="{{ post.link }}">
             <header>
@@ -11,7 +13,7 @@
             <div class="content">
               <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt | truncatewords: 60 }}</p>
             </div>
-            <footer>{{ post.date }} ({{ post.date | date: '%s' }})</footer>
+            <footer>{{ post.date }}</footer>
           </a>
         </article>
       </div>
