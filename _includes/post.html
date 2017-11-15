@@ -8,7 +8,15 @@
             <div class="content">
               <p><img src="{{ post.image }}"><span class="domain">{{ post.domain }}</span> {{ post.excerpt | truncatewords: 60 }}</p>
             </div>
-            <footer>{{ post.date }}</footer>
+            <footer>
+              {% if yesterday %}
+                {{ post.date | %R}}
+              {% elif yesterweek %}
+                {{ post.date | %A}}
+              {% else %}
+                {{ post.date | %-d %b }}
+              {% endif %}
+            </footer>
           </a>
         </article>
       </div>
