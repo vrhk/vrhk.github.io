@@ -64,13 +64,7 @@
 
                     {% if days_ago > 1 and days_ago > hr_days_ago  %}
                       {% assign hr_days_ago = days_ago %}
-                      {% if days_ago == 2 %}
-                        <div><hr>yesterday</div>
-                      {% elsif %}
-                        <div><hr>{{ post.date | %A}}</div>
-                      {% else %}
-                        <div><hr>{{ post.date | %A, %-d %b }}</div>
-                      {% endif %}
+                      <hr>
                     {% endif %}
 
                     {% include post.html %}
