@@ -19,6 +19,8 @@
                 {{ hours_ago }} hours ago
               {% elsif days_ago == 1 %}
                 1 day ago
+              {% elsif days_ago < 30 %}
+                {{ days_ago }} days ago
               {% elsif days_ago < 330 %}
                 {{ post.date | date: "%-d %B" }}
               {% else %}
