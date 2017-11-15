@@ -1,8 +1,8 @@
 
       <div>
         <article class="post">
-          {%if (post.date | date: '%s' | plus: 0) < yesterday  %}
-            {{ (post.date | date: '%s' | plus: 0) }} < yesterday
+          {%if (post.date | date: '%s' | plus: 0) < cutoff  %}
+            {{ (post.date | date: '%s' | plus: 0) }} < cutoff
           {% endif %}
           <a href="{{ post.link }}">
             <header>

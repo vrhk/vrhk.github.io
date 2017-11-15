@@ -34,8 +34,11 @@
         <p><i class="fa fa-{{ page.fa_icon }}"></i> {{ page.title }}</p>
 
         <div class="posts">
-            {% assign yesterday = (site.time | date: '%s' | minus: 86400) %}
-            yesterday: {{ yesterday }}
+            {{ site.time }}
+            now: {{ (site.time | date: '%s' | minus: 0) }}
+            cutoff: {{ (site.time | date: '%s' | minus: 86400) }}
+            {% assign cutoff = (site.time | date: '%s' | minus: 86400) %}
+            cutoff: {{ cutoff }}
             {% for post in site.posts %}
               {% if post.link and post.title or post.excerpt %}
                 {% if page.category == nil or page.category == post.category %}
