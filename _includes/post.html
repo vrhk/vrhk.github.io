@@ -1,11 +1,6 @@
 
       <div>
         <article class="post">
-          {% assign post_date = post.date | date: '%s' | plus: 0 %}
-          post_date: {{ post_date }}
-          {%if post_date < cutoff  %}
-            {{ post_date) }} < {{ cutoff }}
-          {% endif %}
           <a href="{{ post.link }}">
             <header>
               {{ post.title }}

@@ -34,17 +34,30 @@
         <p><i class="fa fa-{{ page.fa_icon }}"></i> {{ page.title }}</p>
 
         <div class="posts">
-            {{ site.time }}
+
             {% assign site_time = site.time | date: '%s' | plus: 0 %}
-            site_time: {{ site_time }}
-            {% assign cutoff = site_time | minus: 86400 %}
-            cutoff: {{ cutoff }}
+            {% assign yesterday = site_time | minus: 86400 %}
+            {% assign yesterweek = site_time | minus: 604800 %}
+            yesterday: {{ yesterday }}
+
+            {% assign post_count = 0 %}
 
             {% for post in site.posts %}
               {% if post.link and post.title or post.excerpt %}
                 {% if page.category == nil or page.category == post.category %}
                   {% if page.category != nil or post.category != 'C7WHBLNLR' %}
+
+                    {% assign post_date = post.date | date: '%s' | plus: 0 %}
+                    post_date: {{ post_date }}
+                    {%if post_date < cutoff  %}
+                      {{ post_date) }} < {{ cutoff }}
+                    {% endif %}
+
+                    {% assign post_count = post_count | plus: 1 %}
+                    post_count: {{ post_count }}
+
                     {% include post.html %}
+
                   {% endif %}
                 {% endif %}
               {% endif %}
