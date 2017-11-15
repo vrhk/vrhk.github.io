@@ -19,10 +19,10 @@
                 {{ hours_ago }} hours ago
               {% elsif days_ago == 1 %}
                 1 day ago
-              {% elsif days_ago < 300 %}
-                {{ post.date | "%-d %B" }}
+              {% elsif days_ago < 330 %}
+                {{ post.date | date: "%-d %B" }}
               {% else %}
-                {{ post.date | "%-d %B %Y" }}
+                {{ post.date | date: "%-d %B %Y" }}
               {% endif %}
             </footer>
           </a>
