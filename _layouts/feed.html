@@ -11,17 +11,19 @@
         <center>
           <div class="menu">
             <p>
-              <a href="/research/"><i class="fa fa-area-chart" aria-hidden="true"></i> research</a>
-              <a href="/engineering/"><i class="fa fa-code" aria-hidden="true"></i> engineering</a>
-              <a href="/product/"><i class="fa fa-laptop" aria-hidden="true"></i> product</a>
-              <a href="/fora/"><i class="fa fa-comments-o" aria-hidden="true"></i> fora</a>
+              <a id="research" href="/research/"><i class="fa fa-area-chart" aria-hidden="true"></i> research</a>
+              <a id="engineering" href="/engineering/"><i class="fa fa-code" aria-hidden="true"></i> engineering</a>
+              <a id="product" href="/product/"><i class="fa fa-laptop" aria-hidden="true"></i> product</a>
+              <a id="fora" href="/fora/"><i class="fa fa-comments-o" aria-hidden="true"></i> fora</a>
+              <script>
+                var el = document.getElementById("{{ page.title }}");
+                el.className = "selected";
+              </script>
             </p>
           </div>
         </center>
       </header>
       <section>
-        <p><i class="fa fa-{{ page.fa_icon }}"></i> {{ page.title }}</p>
-
         <div class="posts">
 
             {% assign site_time = site.time | date: '%s' | plus: 0 %}
@@ -36,7 +38,7 @@
 
                     {% assign post_count = post_count | plus: 1 %}
                     {% if post_count > 50 %}
-                      <a href=#{{ offset }}>More</a>
+                      <center><a href=#{{ offset }}>More</a></center>
                       {% break %}
                     {% endif %}
 

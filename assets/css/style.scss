@@ -22,10 +22,19 @@ header, section, footer {
   font-weight: 200;
   padding-right: 2em;
   white-space: nowrap;
+  color: lightgrey;
+}
+
+.menu a i {
+  width: 11px;
 }
 
 .menu a:hover {
   font-weight: 200;
+}
+
+.menu .selected {
+  color: #267CB9;
 }
 
 .post {
