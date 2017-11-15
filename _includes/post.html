@@ -1,10 +1,10 @@
 
       <div>
         <article class="post">
-          post date: {{ post.date | date: '%s' }}
-          plus period: {{ (post.date | date: '%s' | plus: 86400) }}
-          {%if (post.date | date: '%s' | plus: 86400) < site_time  %}
-            {{ (post.date | date: '%s' | plus: 86400) }} < site_time
+          {% assign post_date = post.date | date: '%s' | plus: 0 %}
+          post_date: {{ post_date }}
+          {%if post_date < cutoff  %}
+            {{ post_date) }} < {{ cutoff }}
           {% endif %}
           <a href="{{ post.link }}">
             <header>
