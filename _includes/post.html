@@ -22,7 +22,7 @@
               {% elsif days_ago < 7 %}
                  {{ days_ago }} days ago
               {% else %}
-                 {{ post.date | %A, %-d %b }}
+                 {{ post.date | "%A, %-d %B, %Y" }}
               {% endif %}
             </footer>
           </a>
