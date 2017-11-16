@@ -30,7 +30,6 @@
             {% assign site_time = site.time | date: '%s' | plus: 0 %}
 
             {% assign post_count = 0 %}
-            {% assign ad_count = 0 %}
 
             {% assign hr_days_ago = 0 %}
 
@@ -40,16 +39,15 @@
                   {% if page.category != nil or post.category != 'C7WHBLNLR' %}
 
                     {% assign post_count = post_count | plus: 1 %}
-                    {% assign ad_count = ad_count | plus: 1 %}
-
-                    {% if ad_count > 11 }
-                      {% include advert.html %}
-                      {% assign ad_count = 0 %}
-                    {% endif %}
 
                     {% if post_count > 50 %}
                          <!-- <center><a href=#{{ offset }}>More</a></center> -->
                       {% break %}
+                    {% endif %}
+
+                    {% capture modulo %}{{ post_count | mod:11 }}{% endcapture %}
+                    {% if modulo == '0' %}
+                      {% include advert.html %}
                     {% endif %}
 
                     {% assign post_date = post.date | date: '%s' | plus: 0 %}
