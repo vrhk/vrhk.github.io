@@ -32,7 +32,16 @@ header h1, h2, h3 {
 }
 
 .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
 
+.menu div {
+    width: 100px;
+    height: 3em;
 }
 
 .menu a {

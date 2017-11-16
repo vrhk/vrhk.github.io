@@ -11,18 +11,16 @@
         <p>{{ site.description }}</p>
         <center>
           <div class="menu">
-            <p>
-              <a id="research" href="/research/"><i class="fa fa-area-chart" aria-hidden="true"></i><p>research</p></a>
-              <a id="engineering" href="/engineering/"><i class="fa fa-code" aria-hidden="true"></i><p>engineering</p></a>
-              <a id="product" href="/product/"><i class="fa fa-laptop" aria-hidden="true"></i><p>product</p></a>
-              <a id="fora" href="/fora/"><i class="fa fa-comments-o" aria-hidden="true"></i><p>fora</p></a>
+              <div><a id="research" href="/research/"><i class="fa fa-area-chart" aria-hidden="true"></i><p>research</p></a></div>
+              <div><a id="engineering" href="/engineering/"><i class="fa fa-code" aria-hidden="true"></i><p>engineering</p></a></div>
+              <div><a id="product" href="/product/"><i class="fa fa-laptop" aria-hidden="true"></i><p>product</p></a></div>
+              <div><a id="fora" href="/fora/"><i class="fa fa-comments-o" aria-hidden="true"></i><p>fora</p></a></div>
               <script>
                 const id = "{{ page.title }}";
                 if (id) {
                   document.getElementById(id).className = "selected";
                 }
               </script>
-            </p>
           </div>
         </center>
       </header>
