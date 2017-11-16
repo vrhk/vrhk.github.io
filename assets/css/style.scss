@@ -108,6 +108,10 @@ header h1, h2, h3 {
     transition: box-shadow .2s ease;
 }
 
+.mailchimp-contact-form input[type="email"] {
+  min-width: 150px;
+}
+
 .mailchimp-contact-form input[type="submit"] {
     background-color: #267CB9;
     border: 1px solid #267CB9;
