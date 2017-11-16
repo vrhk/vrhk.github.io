@@ -6,18 +6,16 @@
   <body>
     <div class="wrapper">
       <header>
-        <div class="top-right">
-          {% include subscribe.html %}
-        </div>
+        {% include subscribe.html %}
         <a href="/"><h3>{{ site.name }}</h3></a>
         <p>{{ site.description }}</p>
         <center>
           <div class="menu">
             <p>
-              <a id="research" href="/research/"><i class="fa fa-area-chart" aria-hidden="true"></i> research</a>
-              <a id="engineering" href="/engineering/"><i class="fa fa-code" aria-hidden="true"></i> engineering</a>
-              <a id="product" href="/product/"><i class="fa fa-laptop" aria-hidden="true"></i> product</a>
-              <a id="fora" href="/fora/"><i class="fa fa-comments-o" aria-hidden="true"></i> fora</a>
+              <a id="research" href="/research/"><i class="fa fa-area-chart" aria-hidden="true"></i><p>research</p></a>
+              <a id="engineering" href="/engineering/"><i class="fa fa-code" aria-hidden="true"></i><p>engineering</p></a>
+              <a id="product" href="/product/"><i class="fa fa-laptop" aria-hidden="true"></i><p>product</p></a>
+              <a id="fora" href="/fora/"><i class="fa fa-comments-o" aria-hidden="true"></i><p>fora</p></a>
               <script>
                 const id = "{{ page.title }}";
                 if (id) {
@@ -46,7 +44,7 @@
                     {% assign post_count = post_count | plus: 1 %}
                     {% assign ad_count = ad_count | plus: 1 %}
 
-                    {% if ad_count == 11 }
+                    {% if ad_count > 11 }
                       {% include advert.html %}
                       {% assign ad_count = 0 %}
                     {% endif %}

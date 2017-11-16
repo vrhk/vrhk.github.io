@@ -32,12 +32,13 @@ header h1, h2, h3 {
 }
 
 .menu {
-  font-size: 0.7em;
+
 }
 
 .menu a {
   font-weight: 200;
-  padding-right: 2em;
+  padding-right: 1em;
+  padding-left: 1em;
   white-space: nowrap;
   color: lightgrey;
 }
@@ -55,13 +56,13 @@ header h1, h2, h3 {
 }
 
 .post {
-  font-size: 0.7em;
   font-weight: 200;
   margin-bottom: 2em;
 }
 
 .post header {
-  font-size: 1.4em;
+  font-size: 1.5em;
+  color: black;
   margin: 0px;
   overflow: hidden;
 }
@@ -89,11 +90,11 @@ header h1, h2, h3 {
 }
 
 .post img {
-  max-height: 3.7em;
+  max-height: 4em;
   float: left;
-  max-width: 6em;
-  margin-top: 0.3em;
-  margin-right: 0.3em;
+  max-width: 9em;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
 }
 
 .post .content {
