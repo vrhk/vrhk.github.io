@@ -19,10 +19,12 @@
   }
 
   function onLoad() {
+    console.log("Loaded");
     document.body.style = "filter: none;";
     var el = document.getElementById("mce-EMAIL");
     if (el) {
-      el.placeholder = "Subscribed!"
+      el.placeholder = "Subscribed " + el.value;
+      el.value = "";
     }
   }
 </script>
