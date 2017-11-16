@@ -1,31 +1,25 @@
 
 <script>
 
-  $(document).on("submit", false);
-
-  function onSubmit() {
-    document.body.style = "filter: blur(4px);"
-
-    console.log("Checking validity");
-    var form = document.getElementById("email_form");
-    if (form.checkValidity()) {
-        form.submit();
-    }
-    console.log("Invalid");
-  }
-
-  function onLoad() {
-    document.body.style = "filter: none;";
-  }
-
   function startEmail() {
     console.log("startEmail");
     var el = document.getElementById("mce-EMAIL");
     el.focus();
   }
 
-  function finishEmail() {
-    console.log("startEmail");
+  function onSubmit() {
+    console.log("Checking validity");
+    var form = document.getElementById("email_form");
+    if (form.checkValidity()) {
+        document.body.style = "filter: blur(4px);"
+        return true;
+    }
+    console.log("Invalid");
+    return false;
+  }
+
+  function onLoad() {
+    document.body.style = "filter: none;";
     var el = document.getElementById("mce-EMAIL");
     el.placeholder = "Subscribed!"
   }
