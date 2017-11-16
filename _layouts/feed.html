@@ -19,8 +19,10 @@
               <a id="product" href="/product/"><i class="fa fa-laptop" aria-hidden="true"></i> product</a>
               <a id="fora" href="/fora/"><i class="fa fa-comments-o" aria-hidden="true"></i> fora</a>
               <script>
-                var el = document.getElementById("{{ page.title }}");
-                el.className = "selected";
+                const id = "{{ page.title }}";
+                if (id) {
+                  document.getElementById(id).className = "selected";
+                }
               </script>
             </p>
           </div>
