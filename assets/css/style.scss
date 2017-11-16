@@ -37,6 +37,7 @@ header h1, h2, h3 {
     justify-content: space-between;
     width: 100%;
     margin: 0 auto;
+    padding-bottom: 1em;
 }
 
 .menu div {
@@ -46,14 +47,8 @@ header h1, h2, h3 {
 
 .menu a {
   font-weight: 200;
-  padding-right: 1em;
-  padding-left: 1em;
   white-space: nowrap;
   color: lightgrey;
-}
-
-.menu a i {
-  width: 11px;
 }
 
 .menu a:hover {
