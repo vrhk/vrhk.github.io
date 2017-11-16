@@ -14,7 +14,7 @@
               <div><a id="research" href="/research/"><i class="fa fa-area-chart" aria-hidden="true"></i><p>research</p></a></div>
               <div><a id="engineering" href="/engineering/"><i class="fa fa-code" aria-hidden="true"></i><p>engineering</p></a></div>
               <div><a id="product" href="/product/"><i class="fa fa-laptop" aria-hidden="true"></i><p>product</p></a></div>
-              <div><a id="fora" href="/fora/"><i class="fa fa-comments-o" aria-hidden="true"></i><p>fora</p></a></div>
+              <div><a id="threads" href="/threads/"><i class="fa fa-comments-o" aria-hidden="true"></i><p>fora</p></a></div>
               <script>
                 const id = "{{ page.title }}";
                 if (id) {
@@ -45,8 +45,9 @@
                       {% break %}
                     {% endif %}
 
-                    {% capture modulo %}{{ post_count | mod:11 }}{% endcapture %}
-                    {% if modulo == '0' %}
+                    {% capture m %}{{ post_count | modulo:11 }}{% endcapture %}
+                    m: {{ m }}
+                    {% if m == '0' %}
                       {% include advert.html %}
                     {% endif %}
 
