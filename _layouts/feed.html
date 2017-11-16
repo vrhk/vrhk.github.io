@@ -43,8 +43,7 @@
                     {% if post_count > 50 %}
 
                       {% include advert.html %}
-
-                      <center><a href=#{{ offset }}>More</a></center>
+                         <!-- <center><a href=#{{ offset }}>More</a></center> -->
                       {% break %}
                     {% endif %}
 
@@ -72,12 +71,13 @@
         <center>
             <p>Want to catch machine learning news?</p>
             <p>Subscribe or follow us</p>
-            {% include subscribe.html %}
-        </center>
-
-        <div id="subscribe">
-          {% include mailchimp.html %}
-        </div>
+            <p>
+              {% include subscribe.html %}
+            </p>
+            <p id="email">
+              {% include mailchimp.html %}
+            </p>
+          </center>
       </footer>
     </div>
 
