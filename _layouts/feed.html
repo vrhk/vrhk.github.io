@@ -43,7 +43,9 @@
 
                     {% assign post_count = post_count | plus: 1 %}
 
-                    {% if (post_count | modulo: 11) == 0 }
+                    {% assign m = post_count | modulo: 11 %}
+                    m: {{ m }}
+                    {% if m == 0 }
                       {% include advert.html %}
                     {% endif %}
 
