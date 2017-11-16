@@ -42,8 +42,12 @@
                   {% if page.category != nil or post.category != 'C7WHBLNLR' %}
 
                     {% assign post_count = post_count | plus: 1 %}
-                    {% if post_count > 50 %}
 
+                    {% if (post_count | modulo: 11) == 0 }
+                      {% include advert.html %}
+                    {% endif %}
+
+                    {% if post_count > 50 %}
                          <!-- <center><a href=#{{ offset }}>More</a></center> -->
                       {% break %}
                     {% endif %}
@@ -56,7 +60,6 @@
 
                     {% if days_ago > 0 and days_ago > hr_days_ago  %}
                       {% assign hr_days_ago = days_ago %}
-                      {% include advert.html %}
                       <hr>
                     {% endif %}
 
