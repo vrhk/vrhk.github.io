@@ -2,7 +2,10 @@
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
 <meta name="theme-color" content="black">
 <link rel="icon" sizes="192x192" href="/assets/img/logo.png">
-<title>{{ site.name }} {{ page.title }}</title>
+
+{% if page.title %}
+  <title>{{ page.title }} | {{ site.name }}</title>
+{% endif %}
 
 {% seo %}
 
