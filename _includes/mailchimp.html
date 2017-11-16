@@ -8,14 +8,10 @@
   }
 
   function onSubmit() {
-    console.log("Checking validity");
     var form = document.getElementById("email_form");
     if (form.checkValidity()) {
         document.body.style = "filter: blur(4px);"
-        return true;
     }
-    console.log("Invalid");
-    return false;
   }
 
   function onLoad() {
