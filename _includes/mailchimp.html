@@ -21,7 +21,9 @@
   function onLoad() {
     document.body.style = "filter: none;";
     var el = document.getElementById("mce-EMAIL");
-    el.placeholder = "Subscribed!"
+    if (el) {
+      el.placeholder = "Subscribed!"
+    }
   }
 </script>
 
