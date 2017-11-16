@@ -44,7 +44,6 @@
                     {% assign post_count = post_count | plus: 1 %}
                     {% if post_count > 50 %}
 
-                      {% include advert.html %}
                          <!-- <center><a href=#{{ offset }}>More</a></center> -->
                       {% break %}
                     {% endif %}
@@ -57,6 +56,7 @@
 
                     {% if days_ago > 0 and days_ago > hr_days_ago  %}
                       {% assign hr_days_ago = days_ago %}
+                      {% include advert.html %}
                       <hr>
                     {% endif %}
 
