@@ -1,10 +1,33 @@
 
 <script>
+
+  $(document).on("submit", false);
+
   function onSubmit() {
     document.body.style = "filter: blur(4px);"
+
+    console.log("Checking validity");
+    var form = document.getElementById("email_form");
+    if (form.checkValidity()) {
+        form.submit();
+    }
+    console.log("Invalid");
   }
+
   function onLoad() {
     document.body.style = "filter: none;";
+  }
+
+  function startEmail() {
+    console.log("startEmail");
+    var el = document.getElementById("mce-EMAIL");
+    el.focus();
+  }
+
+  function finishEmail() {
+    console.log("startEmail");
+    var el = document.getElementById("mce-EMAIL");
+    el.placeholder = "Subscribed!"
   }
 </script>
 
@@ -13,17 +36,9 @@
 </style>
 <iframe name="hiddenFrame" class="hide" onload="onLoad();"></iframe>
 
-<form action="https://vectorhack.us17.list-manage.com/subscribe/post?u=9153893e7206f3e67df79f41c&amp;id=e9b1779341" method="post" name="mc-embedded-subscribe-form" class="mailchimp-contact-form validate" target="hiddenFrame" novalidate>
+<form id="email_form" action="https://vectorhack.us17.list-manage.com/subscribe/post?u=9153893e7206f3e67df79f41c&amp;id=e9b1779341" method="post" name="mc-embedded-subscribe-form" class="mailchimp-contact-form validate" target="hiddenFrame" novalidate>
     <div class="mc-field-group">
-        <input type="email" placeholder="you@example.com" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
-        <input type="submit" value="Subscribe" name="subscribe" class="heart">
+        <input type="email" placeholder="you@example.com" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" aria-hidden="true" required>
+        <input type="submit" value="Subscribe" name="subscribe" class="heart" onclick="onSubmit();">
     </div>
 </form>
-
-<script>
-  function startEmail() {
-    console.log("startEmail");
-    var el = document.getElementById("mce-EMAIL");
-    el.focus();
-  }
-</script>
