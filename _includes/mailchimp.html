@@ -9,6 +9,9 @@
 <script>
   function startEmail() {
     console.log("startEmail");
-    document.getElementById("mce-EMAIL").focus();
+    var el = document.getElementById("mce-EMAIL");
+    el.focus();
+    el.select();
+    el.click();
   }
 </script>
