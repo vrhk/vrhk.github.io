@@ -1,7 +1,21 @@
 
-<form action="https://vectorhack.us17.list-manage.com/subscribe/post?u=9153893e7206f3e67df79f41c&amp;id=e9b1779341" method="post" name="mc-embedded-subscribe-form" class="mailchimp-contact-form validate" target="_blank" novalidate>
+<script>
+  function onSubmit() {
+    document.body.style = "filter: blur(4px);"
+  }
+  function onLoad() {
+    document.body.style = "filter: none;";
+  }
+</script>
+
+<style>
+  .hide { position:absolute; top:-1px; left:-1px; width:1px; height:1px; }
+</style>
+<iframe name="hiddenFrame" class="hide" onload="onLoad();"></iframe>
+
+<form action="https://vectorhack.us17.list-manage.com/subscribe/post?u=9153893e7206f3e67df79f41c&amp;id=e9b1779341" method="post" name="mc-embedded-subscribe-form" class="mailchimp-contact-form validate" target="hiddenFrame" novalidate>
     <div class="mc-field-group">
-        <input type="email" placeholder="you@example.com" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on">
+        <input type="email" placeholder="you@example.com" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
         <input type="submit" value="Subscribe" name="subscribe" class="heart">
     </div>
 </form>
@@ -11,7 +25,5 @@
     console.log("startEmail");
     var el = document.getElementById("mce-EMAIL");
     el.focus();
-    el.select();
-    el.click();
   }
 </script>
