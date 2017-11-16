@@ -46,7 +46,6 @@
                     {% endif %}
 
                     {% capture m %}{{ post_count | modulo:11 }}{% endcapture %}
-                    m: {{ m }}
                     {% if m == '0' %}
                       {% include advert.html %}
                     {% endif %}
