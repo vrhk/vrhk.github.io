@@ -1,0 +1,40 @@
+---
+
+layout: post
+category: C7VJAGM2R
+title: "AWS ramps up in AI with new Rekognition features and consultancy services"
+date: 2017-11-22 23:11:17
+link: https://vrhk.co/2AocLz6
+image: https://tctechcrunch2011.files.wordpress.com/2016/10/gettyimages-85758332.jpg?w=1200&fit=200%2C150
+domain: techcrunch.com
+author: "TechCrunch"
+icon: https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/favicon.ico
+excerpt: "Ahead of Amazon&rsquo;s AWS division big Re:invent conference next week, the company has announced two developments in the area of artificial intelligence. AWS is opening a machine learning lab, ML Solutions Lab, to pair Amazon machine learning experts with customers looking to build solutions using the AI tech. And it&rsquo;s releasing news feature within Amazon Rekognition, Amazon&rsquo;s deep-learning-based image recognition platform: real-time face recognition and the ability to recognise text in images.
+The new lab and the enhancements to its image recognition platform underscore the push that Amazon and AWS are giving to AI at the company, both internally and as a potential area to grow its B2B business in this area. They come about a month after AWS announced it would be collaborating with Microsoft on Gluon, a deep learning interface&nbsp;designed for developers to build and run machine learning models for their apps and other services.
+The fact that these two announcements were made today, a day before Thanksgiving, makes me wonder if AWS is laying groundwork for more AI news at Re:invent, or if they are indicating that this will not be a focus as it has been in previous years. It was actually last year that Amazon used Re:invent to announce Amazon AI, which is the division that will oversee the solutions lab.
+The Solutions Lab &mdash; which Amazon said is available to any AWS Business Support customer &mdash; is an interesting development because it points to Amazon ramping up not just in AI, but in business consultancy, which is a key cornerstone of providing IT services to corporate customers at companies like IBM.
+&ldquo;We can&rsquo;t wait for developers to start their journeys into machine learning with the&nbsp;Amazon ML Solutions Lab,&rdquo; said Swami Sivasubramanian, Vice President of Amazon AI, in a statement. &ldquo;By combining the expertise of the best machine learning scientist and practitioners at&nbsp;Amazon&nbsp;with the deep business knowledge of our customers, the&nbsp;Amazon ML Solutions Lab&nbsp;will help customers get up to speed on machine learning quickly, and start putting machine learning to work inside their organizations.&rdquo;
+Early customers will include the Washington Post and Johnson &amp; Johnson pharmaceutical division&nbsp;Janssen and the World Bank Group.
+The new Rekognition features, meanwhile, point not only to how Amazon continues to make major advances in computer vision, but its strong commitment to monetizing them by turning them into products for external customers.
+Notably, one of the bigger customers using the new Rekognition features is Pinterest, which is interesting when you consider that image-related functions like search and classification are some of the company&rsquo;s core features, and so you might have assumed that the tech for them would have been developed in-house.
+Pinterest has, however, been an AWS customer for years, with millions of Pins currently stored in an Amazon S3 cloud, so it makes sense that if Amazon has developed a new way to identify text in those images, it&rsquo;s a logical choice to use it.
+&ldquo;As a visually-driven platform, Pinterest relies heavily on the speed and quality of images, but the text behind those images is just as important, as it provides context and makes Pins actionable for our 200M+ active Pinners,&rdquo; said&nbsp;Vanja Josifovski, CTO, Pinterest. &ldquo;In working with Amazon Rekognition Text in Image, we can better extract the rich text captured in images at scale and with low latency for the millions of Pins stored in Amazon S3. We look forward to continuing to develop the partnership with&nbsp;AWS&nbsp;for high quality and fast experiences for Pinners and businesses on Pinterest.&rdquo;
+
+&nbsp;"
+
+---
+
+### AWS ramps up in AI with new Rekognition features and consultancy services
+
+Ahead of Amazon&rsquo;s AWS division big Re:invent conference next week, the company has announced two developments in the area of artificial intelligence. AWS is opening a machine learning lab, ML Solutions Lab, to pair Amazon machine learning experts with customers looking to build solutions using the AI tech. And it&rsquo;s releasing news feature within Amazon Rekognition, Amazon&rsquo;s deep-learning-based image recognition platform: real-time face recognition and the ability to recognise text in images.
+The new lab and the enhancements to its image recognition platform underscore the push that Amazon and AWS are giving to AI at the company, both internally and as a potential area to grow its B2B business in this area. They come about a month after AWS announced it would be collaborating with Microsoft on Gluon, a deep learning interface&nbsp;designed for developers to build and run machine learning models for their apps and other services.
+The fact that these two announcements were made today, a day before Thanksgiving, makes me wonder if AWS is laying groundwork for more AI news at Re:invent, or if they are indicating that this will not be a focus as it has been in previous years. It was actually last year that Amazon used Re:invent to announce Amazon AI, which is the division that will oversee the solutions lab.
+The Solutions Lab &mdash; which Amazon said is available to any AWS Business Support customer &mdash; is an interesting development because it points to Amazon ramping up not just in AI, but in business consultancy, which is a key cornerstone of providing IT services to corporate customers at companies like IBM.
+&ldquo;We can&rsquo;t wait for developers to start their journeys into machine learning with the&nbsp;Amazon ML Solutions Lab,&rdquo; said Swami Sivasubramanian, Vice President of Amazon AI, in a statement. &ldquo;By combining the expertise of the best machine learning scientist and practitioners at&nbsp;Amazon&nbsp;with the deep business knowledge of our customers, the&nbsp;Amazon ML Solutions Lab&nbsp;will help customers get up to speed on machine learning quickly, and start putting machine learning to work inside their organizations.&rdquo;
+Early customers will include the Washington Post and Johnson &amp; Johnson pharmaceutical division&nbsp;Janssen and the World Bank Group.
+The new Rekognition features, meanwhile, point not only to how Amazon continues to make major advances in computer vision, but its strong commitment to monetizing them by turning them into products for external customers.
+Notably, one of the bigger customers using the new Rekognition features is Pinterest, which is interesting when you consider that image-related functions like search and classification are some of the company&rsquo;s core features, and so you might have assumed that the tech for them would have been developed in-house.
+Pinterest has, however, been an AWS customer for years, with millions of Pins currently stored in an Amazon S3 cloud, so it makes sense that if Amazon has developed a new way to identify text in those images, it&rsquo;s a logical choice to use it.
+&ldquo;As a visually-driven platform, Pinterest relies heavily on the speed and quality of images, but the text behind those images is just as important, as it provides context and makes Pins actionable for our 200M+ active Pinners,&rdquo; said&nbsp;Vanja Josifovski, CTO, Pinterest. &ldquo;In working with Amazon Rekognition Text in Image, we can better extract the rich text captured in images at scale and with low latency for the millions of Pins stored in Amazon S3. We look forward to continuing to develop the partnership with&nbsp;AWS&nbsp;for high quality and fast experiences for Pinners and businesses on Pinterest.&rdquo;
+
+&nbsp;
