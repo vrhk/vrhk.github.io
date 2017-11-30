@@ -9,7 +9,6 @@ timezone: Etc/GMT
 
 plugins:
   - jekyll-feed
-  - jekyll-timeago
 
 theme: jekyll-theme-minimal
 
