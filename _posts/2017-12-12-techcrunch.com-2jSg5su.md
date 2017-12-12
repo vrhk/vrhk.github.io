@@ -1,0 +1,26 @@
+---
+
+layout: post
+category: C7VJAGM2R
+title: "Adobe Lightroom’s auto setting is now powered by AI"
+date: 2017-12-12 17:36:22
+link: https://vrhk.co/2jSg5su
+image: https://tctechcrunch2011.files.wordpress.com/2017/12/c6c5f6acd3c7476745703490733135e0-1800x0-c-default.jpg?w=1200&fit=200%2C150
+domain: techcrunch.com
+author: "TechCrunch"
+icon: https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/favicon.ico
+excerpt: "Adobe launched an update to its suite of Lightroom photo management apps today that, among other things, brings a new machine learning-powered auto setting to the service. The new auto setting uses Adobe&rsquo;s Sensei AI platform to analyze your photo and compare it to the thousands of professionally edited images in its catalog (including, I assume, those in Adobe Stock). Then it uses this information to make your own photos look better.
+This update is now live in the latest versions of Lightroom CC, Lightroom CC for iOS, Lightroom CC for Android, Lightroom CC on the web, Lightroom Classic, and Adobe Camera Raw (ACR).
+The addition of this AI-powered tools is very much in line with Adobe&rsquo;s overall plans for bringing more intelligence to its services. At the company&rsquo;s MAX conference earlier this year, Adobe CTO Abhay Parasnis noted that the company isn&rsquo;t interested in building a general purpose AI platform.&nbsp;&ldquo;We have a very deep understanding of how creative professionals work in imagining, in photography, in video, in design and illustration,&rdquo; he said back then. &ldquo;So we have taken decades worth of learning of those very specific domains &mdash; and that&rsquo;s where a large part of this comes in. When one of the very best artists in Photoshop&nbsp;spends hours in creation, what are the other things they do and maybe more importantly, what are the things they don&rsquo;t do? We are trying to harness that and marry that with the latest advances in deep learning so that the algorithms can actually become partners for that creative professional.&rdquo;
+
+This is obviously the first major Lightroom update since the company split the product into the cloud-centric Lightroom CC and Lightroom Classic CC. When it did so, the new Lightroom CC was still missing a few features, but today&rsquo;s update does bring some of the most-requested tools back to the revamped Lightroom CC. These include the return of the Tone Curve tool, for example, as well as Split Toning (for those of you who just need to have that sepia look). Also new in Lightroom CC is the ability to change the capture time of a photo (in case you once again forgot to change the time in your camera while you travelled across time zones) and a new full-screen view."
+
+---
+
+### Adobe Lightroom’s auto setting is now powered by AI
+
+Adobe launched an update to its suite of Lightroom photo management apps today that, among other things, brings a new machine learning-powered auto setting to the service. The new auto setting uses Adobe&rsquo;s Sensei AI platform to analyze your photo and compare it to the thousands of professionally edited images in its catalog (including, I assume, those in Adobe Stock). Then it uses this information to make your own photos look better.
+This update is now live in the latest versions of Lightroom CC, Lightroom CC for iOS, Lightroom CC for Android, Lightroom CC on the web, Lightroom Classic, and Adobe Camera Raw (ACR).
+The addition of this AI-powered tools is very much in line with Adobe&rsquo;s overall plans for bringing more intelligence to its services. At the company&rsquo;s MAX conference earlier this year, Adobe CTO Abhay Parasnis noted that the company isn&rsquo;t interested in building a general purpose AI platform.&nbsp;&ldquo;We have a very deep understanding of how creative professionals work in imagining, in photography, in video, in design and illustration,&rdquo; he said back then. &ldquo;So we have taken decades worth of learning of those very specific domains &mdash; and that&rsquo;s where a large part of this comes in. When one of the very best artists in Photoshop&nbsp;spends hours in creation, what are the other things they do and maybe more importantly, what are the things they don&rsquo;t do? We are trying to harness that and marry that with the latest advances in deep learning so that the algorithms can actually become partners for that creative professional.&rdquo;
+
+This is obviously the first major Lightroom update since the company split the product into the cloud-centric Lightroom CC and Lightroom Classic CC. When it did so, the new Lightroom CC was still missing a few features, but today&rsquo;s update does bring some of the most-requested tools back to the revamped Lightroom CC. These include the return of the Tone Curve tool, for example, as well as Split Toning (for those of you who just need to have that sepia look). Also new in Lightroom CC is the ability to change the capture time of a photo (in case you once again forgot to change the time in your camera while you travelled across time zones) and a new full-screen view.
