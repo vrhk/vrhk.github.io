@@ -6,7 +6,13 @@
               {{ post.title }}
             </header>
             <div class="content">
-              <p><img src="{{ post.image }}"><span class="domain">
+              <p>
+                {% if post.image %}  
+                  <img src="{{ post.image }}">
+                {% elsif post.icon %}
+                  <img src="{{ post.icon }}"> 
+                {% endif %}
+                <span class="domain">
                 {{ post.domain }}
                 {% if minutes_ago <= 1 %}
                   just now
