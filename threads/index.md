@@ -1,6 +1,7 @@
 ---
 layout: feed
 title: fora
-category: C7WHBLNLR
+category: threads
+channel: C7WHBLNLR
 fa_icon: comments
 ---
