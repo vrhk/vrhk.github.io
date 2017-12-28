@@ -37,6 +37,7 @@
             {% for post in site.posts %}
               {% if post.link and post.title or post.excerpt %}
                 {% if page.category == nil or page.category == post.category or page.channel == post.category %}
+                  page.featured: {{ page.featured }}
                   {% if page.category != nil or page.featured contains post.category %}
 
                     {% assign post_count = post_count | plus: 1 %}
