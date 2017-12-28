@@ -2,6 +2,6 @@
 layout: feed
 title: product
 category: product
-channel: C7VJAGM2R
+channel: C8KUCH2UU
 fa_icon: laptop
 ---
