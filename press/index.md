@@ -2,6 +2,6 @@
 layout: feed
 title: press
 category: press
-channel: C8KUCH2UU
+channel: C7VJAGM2R
 fa_icon: newspaper-o
 ---
