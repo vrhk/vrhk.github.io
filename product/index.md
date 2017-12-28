@@ -1,6 +1,7 @@
 ---
 layout: feed
 title: product
-category: C7VJAGM2R
+category: product
+channel: C7VJAGM2R
 fa_icon: laptop
 ---
