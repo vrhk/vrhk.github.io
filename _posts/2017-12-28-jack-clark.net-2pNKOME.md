@@ -1,7 +1,7 @@
 ---
 
 layout: post
-category: C7WAKBTB8
+category: C8KUCH2UU
 title: "Import AI: #74: Why Uber is betting on evolution, what Facebook and Baidu think about datacenter-scale AI computing, and why Tacotron 2 means speech will soon be spoofable"
 date: 2017-12-28 08:24:06
 link: http://bit.ly/2pNKOME
