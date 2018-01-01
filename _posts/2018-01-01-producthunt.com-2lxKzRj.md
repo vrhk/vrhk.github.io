@@ -1,7 +1,7 @@
 ---
 
 layout: post
-category: product
+category: threads
 title: "proofSource | Leverage Social Proof To Increase Sales"
 date: 2018-01-01 12:43:50
 link: https://vrhk.co/2lxKzRj
