@@ -1,7 +1,7 @@
 ---
 
 layout: post
-category: product
+category: threads
 title: "Get"
 date: 2018-01-02 08:03:40
 link: https://vrhk.co/2DO9PcT
