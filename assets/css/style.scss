@@ -22,6 +22,10 @@ footer p {
   margin-bottom: 1em;
 }
 
+footer a:hover, a:focus {
+  font-weight: 400;
+}
+
 header h1, h2, h3 {
   margin-bottom: 0.7em;
 }
