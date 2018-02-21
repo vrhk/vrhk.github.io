@@ -1,0 +1,44 @@
+---
+
+layout: post
+category: press
+title: "Google debuts AdSense ‘auto ads’ with machine learning to make placement and monetization choices"
+date: 2018-02-21 12:01:10
+link: https://tcrn.ch/2onkiWy
+image: https://tctechcrunch2011.files.wordpress.com/2015/07/google-adsense.png?w=1200&fit=200%2C150
+domain: techcrunch.com
+author: "Ingrid Lunden"
+icon: https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/favicon.ico
+excerpt: "Google is today unveiling a new ad unit for AdSense that taps into the company&rsquo;s big push to add more artificial intelligence into its business, and to potentially bring on more publishers who might consider ramping up their advertising efforts but don&rsquo;t have the time or other resources to manage them.
+Google is debuting &ldquo;Auto Ads&rdquo; &mdash; not commercials for cars, but a new ad unit that uses machine learning to &ldquo;read&rdquo; a page to detect and place what kinds of ads might be appropriate to place there, including where to place them, and how many to run. Publishers activate Auto Ads with a single line of code on the page.
+The service was actually quietly rolled out in a limited beta around April of 2017, and now it is live for everyone. Google tells us that &ldquo;publishers participating in the beta saw an average revenue lift of 10 percent with revenue increases ranging from five to 15 percent.&rdquo;
+For those who track or use AdSense, you know that there is already a fair degree of automation in the service. The product is used by tens of millions of web publishers to indicate where to place ads (banners and other units); with those ads then selected by Google based on a crawl of the page to figure out which ad might be most relevant. It already comprises a significant proportion of parent company Alphabet&rsquo;s ad revenues, which accounted for $27 billion of its $32 billion of revenues in the most recent quarter.
+What&rsquo;s new with Auto Ads is that Google is taking on task of selecting the placement &mdash; doing all of the work for publishers in terms of figuring out how many ads to put on specific pages, where to put them, as well as what kind of ads will run.
+Using machine learning is interesting here because it not only is being applied to figure out where an ad will go, but it is also being used to ingest analytics for how well that ad performs to &ldquo;teach&rdquo; the system how to place ads better in the future.
+One black hole (and potential pitfall) is the fact that Google&rsquo;s Auto Ads seems to decide just how many ads it will place on a page &mdash; something you would have had more control over without it. This thread on Webmaster World details how some of the early beta testers were not pleased about how many ads ended up crowding their pages, and what that did to user experience on the site.
+We&rsquo;re asking Google for a response to that point, and whether it will let users limit the number of units that Auto Ads can place on a page.
+It will also highlight questions about how well Google&rsquo;s judgement will be in all cases.
+The AdSense service has come under the spotlight for letting lots of nefarious content seep into the mix, including ads carrying &ldquo;fake news&rdquo; and other misleading content. The company has been making efforts to combat this. Its &ldquo;bad ads report&rdquo; published in January 2017 noted that the company took down 1.7 billion dodgy ads and banned 200 publishers from AdSense.
+For now, the aim seems to be to roll this out and see how many sign on for the convenience of the service, which you activate by signing into your AdSense account; checking global settings from &ldquo;My ads&rdquo;; copying the code that is there and pasting it between the header tags for every page where you want the ads to appear (they come on in 10-20 minutes, Google says).
+In a blog post from AdSense engineering manager&nbsp;Tom Long and product manager Violetta Kalathaki, the two note that units included in the Auto Ad mix will include Anchor and Vignette ads, as well as Text and display, In-feed, and Matched content ads. (Not clear if newer formats like this larger banner will also be included.) They also write that publishers can specify which of these it wants to run.
+For those who have been using Page-level ads (specifying different kinds of ads depending on the subject of a page, rather than a whole site), their code will all automatically get migrated to run with Auto Ads. And for those who are using Google&rsquo;s AMP service for mobile pages, you need to use code for AMP Auto ads.
+&nbsp;"
+
+---
+
+### Google debuts AdSense ‘auto ads’ with machine learning to make placement and monetization choices
+
+Google is today unveiling a new ad unit for AdSense that taps into the company&rsquo;s big push to add more artificial intelligence into its business, and to potentially bring on more publishers who might consider ramping up their advertising efforts but don&rsquo;t have the time or other resources to manage them.
+Google is debuting &ldquo;Auto Ads&rdquo; &mdash; not commercials for cars, but a new ad unit that uses machine learning to &ldquo;read&rdquo; a page to detect and place what kinds of ads might be appropriate to place there, including where to place them, and how many to run. Publishers activate Auto Ads with a single line of code on the page.
+The service was actually quietly rolled out in a limited beta around April of 2017, and now it is live for everyone. Google tells us that &ldquo;publishers participating in the beta saw an average revenue lift of 10 percent with revenue increases ranging from five to 15 percent.&rdquo;
+For those who track or use AdSense, you know that there is already a fair degree of automation in the service. The product is used by tens of millions of web publishers to indicate where to place ads (banners and other units); with those ads then selected by Google based on a crawl of the page to figure out which ad might be most relevant. It already comprises a significant proportion of parent company Alphabet&rsquo;s ad revenues, which accounted for $27 billion of its $32 billion of revenues in the most recent quarter.
+What&rsquo;s new with Auto Ads is that Google is taking on task of selecting the placement &mdash; doing all of the work for publishers in terms of figuring out how many ads to put on specific pages, where to put them, as well as what kind of ads will run.
+Using machine learning is interesting here because it not only is being applied to figure out where an ad will go, but it is also being used to ingest analytics for how well that ad performs to &ldquo;teach&rdquo; the system how to place ads better in the future.
+One black hole (and potential pitfall) is the fact that Google&rsquo;s Auto Ads seems to decide just how many ads it will place on a page &mdash; something you would have had more control over without it. This thread on Webmaster World details how some of the early beta testers were not pleased about how many ads ended up crowding their pages, and what that did to user experience on the site.
+We&rsquo;re asking Google for a response to that point, and whether it will let users limit the number of units that Auto Ads can place on a page.
+It will also highlight questions about how well Google&rsquo;s judgement will be in all cases.
+The AdSense service has come under the spotlight for letting lots of nefarious content seep into the mix, including ads carrying &ldquo;fake news&rdquo; and other misleading content. The company has been making efforts to combat this. Its &ldquo;bad ads report&rdquo; published in January 2017 noted that the company took down 1.7 billion dodgy ads and banned 200 publishers from AdSense.
+For now, the aim seems to be to roll this out and see how many sign on for the convenience of the service, which you activate by signing into your AdSense account; checking global settings from &ldquo;My ads&rdquo;; copying the code that is there and pasting it between the header tags for every page where you want the ads to appear (they come on in 10-20 minutes, Google says).
+In a blog post from AdSense engineering manager&nbsp;Tom Long and product manager Violetta Kalathaki, the two note that units included in the Auto Ad mix will include Anchor and Vignette ads, as well as Text and display, In-feed, and Matched content ads. (Not clear if newer formats like this larger banner will also be included.) They also write that publishers can specify which of these it wants to run.
+For those who have been using Page-level ads (specifying different kinds of ads depending on the subject of a page, rather than a whole site), their code will all automatically get migrated to run with Auto Ads. And for those who are using Google&rsquo;s AMP service for mobile pages, you need to use code for AMP Auto ads.
+&nbsp;
