@@ -1,0 +1,18 @@
+---
+
+layout: post
+category: threads
+title: "The Workplace of the Future: How Current Technologies Will Transform our Offices, Services we Use and the Industrial Environment"
+date: 2018-05-18 13:10:53
+link: https://vrhk.co/2It0n1e
+image: https://www.frontiersin.org/files/Special%20Topics/7809/Thumb_166.jpg
+domain: frontiersin.org
+author: "Frontiers"
+icon: https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/favicon_16x16.ico
+excerpt: "In the last decade, workplaces have evolved towards digitization. Today we are moving towards new concepts of workplaces, and in the near future, people will work in digitally connected environments where natural human machine interaction and an agile access to data will be available. Computer Vision, Augmented Reality, Cyber Physical Systems and Internet of Things, Human-Machine Interaction, Artificial Intelligence and Machine Learning will play central roles in the revolution that is transforming our workplaces, contributing to the creation of mixed working environments that bridge the digital and physical worlds. The outcome from the research in this new and evolving discipline will inspire the next generation of products and services for the workplace of the future.A key challenge of future workplaces will be to automatically correlate visual information about the physical surroundings and objects – such as what the user sees on a paper document or on a medical chart, on a tablet screen– with digital knowledge contained in an underlying enterprise database. This integration will suggest and trigger the appropriate response depending on the context and needs of the user. There will also be benefits from the integration of multiple-sensor data enabled by the Internet of Things, smart data collected at the semantic layer and the needs of the unique user to create a seamless workflow of digital information. Moreover, shared virtual work-spaces will facilitate interaction, ..."
+
+---
+
+### The Workplace of the Future: How Current Technologies Will Transform our Offices, Services we Use and the Industrial Environment
+
+In the last decade, workplaces have evolved towards digitization. Today we are moving towards new concepts of workplaces, and in the near future, people will work in digitally connected environments where natural human machine interaction and an agile access to data will be available. Computer Vision, Augmented Reality, Cyber Physical Systems and Internet of Things, Human-Machine Interaction, Artificial Intelligence and Machine Learning will play central roles in the revolution that is transforming our workplaces, contributing to the creation of mixed working environments that bridge the digital and physical worlds. The outcome from the research in this new and evolving discipline will inspire the next generation of products and services for the workplace of the future.A key challenge of future workplaces will be to automatically correlate visual information about the physical surroundings and objects – such as what the user sees on a paper document or on a medical chart, on a tablet screen– with digital knowledge contained in an underlying enterprise database. This integration will suggest and trigger the appropriate response depending on the context and needs of the user. There will also be benefits from the integration of multiple-sensor data enabled by the Internet of Things, smart data collected at the semantic layer and the needs of the unique user to create a seamless workflow of digital information. Moreover, shared virtual work-spaces will facilitate interaction, ...
