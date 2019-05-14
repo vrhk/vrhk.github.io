@@ -1,0 +1,18 @@
+---
+
+layout: post
+category: press
+title: "Google’s pitch to Android devs: Assistant can drive app engagement"
+date: 2019-05-14 18:31:31
+link: https://vrhk.co/2LDn2Oe
+image: https://venturebeat.com/wp-content/uploads/2019/05/IMG_9420.jpg?w=1200&strip=all
+domain: venturebeat.com
+author: "VentureBeat"
+icon: https://venturebeat.com/wp-content/themes/vb-news/img/favicon.ico
+excerpt: "Google is telling Android developers that connecting with Google Assistant can spur more engagement, though there's no evidence to demonstrate that yet."
+
+---
+
+### Google’s pitch to Android devs: Assistant can drive app engagement
+
+Google is telling Android developers that connecting with Google Assistant can spur more engagement, though there's no evidence to demonstrate that yet.
