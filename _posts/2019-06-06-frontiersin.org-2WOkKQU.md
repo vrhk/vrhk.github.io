@@ -1,0 +1,18 @@
+---
+
+layout: post
+category: threads
+title: "Enriching Social Awareness in Artificial Agents: Advances in Physiological and Behavioural Signal Processing"
+date: 2019-06-06 16:20:37
+link: https://vrhk.co/2WOkKQU
+image: https://www.frontiersin.org/files/Special%20Topics/10214/Thumb_166.jpg
+domain: frontiersin.org
+author: "Frontiers"
+icon: https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/favicon_16x16.ico
+excerpt: "Social robots and virtual avatars are emerging technologies that promise opportunities for an effective interaction with humans. This ability emerges from a coherent exploitation of social skills that explicitly take into account the human presence in the perception-action loop. Identifying users, understanding their actions, inferring their mental and emotional states, processing non-verbal gestures, planning their action in a more “human-aware” fashion, are just some examples of social skills that are pushing interactive agents towards an efficient and practical collaboration with humans in different scenarios; as partners in industries, as companions for children and elderly, as educational tools, as assistants in public or personal spaces and so on. However, despite progress in the field of Human-Agent Interaction (HAI), today’s state-of-the-art agents still lack skills in accomplishing complex social tasks and are yet unable to function autonomously in real-world social scenes.This Research Topic aims to present rigorous scientific and technical advances in methods, models, techniques and algorithms that enrich the mutual interplay between humans and artificial agents and improve their social skills and awareness. Welcome contributions will focus on theoretical aspects as well as practical applications of embodied, autonomous and semi-autonomous social cognition of virtual agents and robots.Particular attention will be given to the integration of electrophysiological ..."
+
+---
+
+### Enriching Social Awareness in Artificial Agents: Advances in Physiological and Behavioural Signal Processing
+
+Social robots and virtual avatars are emerging technologies that promise opportunities for an effective interaction with humans. This ability emerges from a coherent exploitation of social skills that explicitly take into account the human presence in the perception-action loop. Identifying users, understanding their actions, inferring their mental and emotional states, processing non-verbal gestures, planning their action in a more “human-aware” fashion, are just some examples of social skills that are pushing interactive agents towards an efficient and practical collaboration with humans in different scenarios; as partners in industries, as companions for children and elderly, as educational tools, as assistants in public or personal spaces and so on. However, despite progress in the field of Human-Agent Interaction (HAI), today’s state-of-the-art agents still lack skills in accomplishing complex social tasks and are yet unable to function autonomously in real-world social scenes.This Research Topic aims to present rigorous scientific and technical advances in methods, models, techniques and algorithms that enrich the mutual interplay between humans and artificial agents and improve their social skills and awareness. Welcome contributions will focus on theoretical aspects as well as practical applications of embodied, autonomous and semi-autonomous social cognition of virtual agents and robots.Particular attention will be given to the integration of electrophysiological ...
