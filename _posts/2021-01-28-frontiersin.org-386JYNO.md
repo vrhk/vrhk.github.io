@@ -1,0 +1,18 @@
+---
+
+layout: post
+category: threads
+title: "Digging into Feature-Rich Networks: unveiling connections in Big Data"
+date: 2021-01-28 14:06:03
+link: https://vrhk.co/386JYNO
+image: https://www.frontiersin.org/files/Special%20Topics/16784/Thumb_166.jpg
+domain: frontiersin.org
+author: "Frontiers"
+icon: https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/favicon_16x16.ico
+excerpt: "The recent progress of methodologies and technologies in the fields of Big Data Analytics, from one side, and Machine/Deep Learning, from another side, has given a new impulse to research on complex real-world behaviors and phenomena, which can be conveniently modeled as feature-rich networks. Such networks are designed to take the expressive power of graph data models of different types (e.g., Heterogeneous information networks, Multilayer networks, Temporal networks, Location-aware networks, Probabilistic networks) to a higher level whereby the contextual information of a target domain-specific environment are embedded into the network.The aim of this Research Topic, titled “Digging into Feature-Rich Networks: unveiling connections in Big Data”, is to address challenging issues and emerging trends at the convergence of Network Science with Big Data Analytics and Machine/Deep Learning. The idea is to encourage the development of novel approaches based on advanced big data techniques and learning paradigms, that will enhance our understanding of complex phenomena in information networks. Moreover, we also aim to promote visionary works about alternative approaches for complex network analysis.These include not only long studied contexts such as social media and biological networks, but also less investigated or even new frontiers for network science, such as finance, engineering, archaeology, geology, astronomy, and many others. Although the use of feature-rich networks c..."
+
+---
+
+### Digging into Feature-Rich Networks: unveiling connections in Big Data
+
+The recent progress of methodologies and technologies in the fields of Big Data Analytics, from one side, and Machine/Deep Learning, from another side, has given a new impulse to research on complex real-world behaviors and phenomena, which can be conveniently modeled as feature-rich networks. Such networks are designed to take the expressive power of graph data models of different types (e.g., Heterogeneous information networks, Multilayer networks, Temporal networks, Location-aware networks, Probabilistic networks) to a higher level whereby the contextual information of a target domain-specific environment are embedded into the network.The aim of this Research Topic, titled “Digging into Feature-Rich Networks: unveiling connections in Big Data”, is to address challenging issues and emerging trends at the convergence of Network Science with Big Data Analytics and Machine/Deep Learning. The idea is to encourage the development of novel approaches based on advanced big data techniques and learning paradigms, that will enhance our understanding of complex phenomena in information networks. Moreover, we also aim to promote visionary works about alternative approaches for complex network analysis.These include not only long studied contexts such as social media and biological networks, but also less investigated or even new frontiers for network science, such as finance, engineering, archaeology, geology, astronomy, and many others. Although the use of feature-rich networks c...
